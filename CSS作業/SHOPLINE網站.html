@@ -6,16 +6,284 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }       
+        .tour{
+            background-color: #aaa;
+            display: flex;
+            align-items: center;
+        }
+        .languageHelp{
+            background-color: rgb(172, 83, 83);
+            display: flex;
+            justify-content: end;
+
+        }
         
+        nav{
+            flex-grow: 1;
+            background-color: #fa0;
+        }
+        .logo{
+            margin: 10px;
+            margin-left: 50px;
+            
+        }
+        .listClick{
+            margin: 10px;
+            padding: 5px;
+        }
+        .btnFree
+        {
+            display: inline-block;
+            background-color: #00f;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-right: 30px;
+            
+        }
+        .part_enter_email_use{
+            justify-content: center;
+            display: flex;
+            background-color: rgb(9, 9, 70);
+        }
+        .wordContent{
+            width: 700px;
+            margin: 50px;
+            color: white;
+        }
+        h2{
+            font-size: 35px;
+        }
+        .normalp{
+            font-size: 17px;
+        }
+        .short_introduce{
+            display: flex;
+            flex-direction: column ;            
+            background-color: #fa0;
+            align-items: center;
+        }
+        .pare_introduce{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: pink;
+        }
+        .turn{
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        .partOfWord{
+            background-color: aqua;
+            width: 680px;
+        }
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .list{
+            width: 50%;
+            list-style: none;
+        }
+        
+        .more_service{
+            background-color: olivedrab;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            
+            margin: auto;
+        }
+        .servicediv{
+            display: flex;
+            background-color: salmon;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            width: 900px;
+        }
+        .service{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 300px;
+            
+        }
     </style>
+
 </head>
 
 
 <body>
-    <header>
-        <div></div>
-        d
+    <header class="before">       
+
+        
+        
+        <div class="languageHelp">
+            <a href="">O</a>
+            <a href="">幫助中心</a>
+            <a href="">登入商店</a>
+            <!-- margin right -->
+        </div>
+
+        <a href=""></a>
+        
+        
+            <div class="tour">
+                <div class="logo">
+                    <a href="">
+                        <img src="https://img.shoplineapp.com/media/image_clips/60811bb98a60d74a03808d4d/original.png?1619073977">
+                    </a>
+                </div>
+    
+    
+                
+                <nav>
+    
+                    <a class="listClick" href="">開店服務</a>
+                    <a class="listClick" href="">方案費用</a>
+                    <a class="listClick" href="">客戶案例</a>
+                    <a class="listClick" href="">開店說明會</a>
+                    <a class="listClick" href="">開店諮詢</a>
+                    <a class="listClick" href="">更多解決方案</a>
+                    <a class="listClick" href="">其他資源</a>
+    
+                </nav>
+                <a href="" class="btnFree">
+                    免費試用
+                </a>
+
+            </div>
+
+        </div>
+
     </header>
+
+    <div class="part_enter_email_use" >
+
+        <div class="wordContent">
+            <h2>想在哪開店創業<br>社群購物貼近生活零距離</h2>
+            <p>
+                超過 35 萬品牌使用！從個人賣家到國際品牌，都能以 SHOPLINE 實現全通路零售，快速拓展市場到世界各地，輕鬆開始你的『 店 』商生意！
+            </p>
+            
+            <input type="email" placeholder="請在此輸入電子信箱(可隨時更換)">
+            <button class="btnFree big">免費試用</button>
+        </div>
+        <div>
+            <img src="https://shoplineimg.com/59c0fd06080f0690b5000cd1/6191b397e9f2f00026722389/505x.webp?source_format=png" alt="">
+        </div>
+    </div>
+
+    <div class="short_introduce">
+        <h2>單一平台就能助你<br>在全通路輕鬆開店創業</h2>
+        <p class="normalp">從網路商店架站到實體門市管理，只需要一個平台，就能輕鬆實現開店創業，<br>並能同步管理所有銷售管道，SHOPLINE 助你賣得更多、賣得更好！</p>
+    </div>
+
+    <div class="pare_introduce">
+
+        <div class="partOfWord">
+            <h2>免寫程式、多款版型<br>輕鬆打造全能店商網站</h2>
+            <p class="normalp">不會寫程式也能輕鬆架設品牌電商官網！任何產業都能找到合適的專業設計版型，以滑鼠拖曳就能完成網頁編輯，讓架設網站就像堆積木一樣簡單。</p>
+            <ul class="partintroduce">
+                <li class="list"><span>✔</span> 豐富版型主題與字型搭配</li>
+                <li class="list"><span>✔</span>RWD 響應式網頁設計</li>
+                <li class="list"><span>✔</span>獨有網址 ＆ SSL 安全憑證</li>
+                <li class="list"><span>✔</span>SEO 搜尋引擎優化</li>
+                <li class="list"><span>✔</span>一頁商店</li>
+                <li class="list"><span>✔</span>開放 HTML／CSS 編輯</li>
+            </ul>
+            <a href="">看看開店祕技</a>
+
+        </div>
+        <div>
+            <img src="https://shoplineimg.com/59c0fd06080f0690b5000cd1/60b0c566ec23b10026db7112/565x.webp?source_format=png">
+        </div>
+    </div>
+
+    <div class="pare_introduce turn">
+
+        <div class="partOfWord">
+            <h2>免寫程式、多款版型<br>輕鬆打造全能店商網站</h2>
+            <p class="normalp">不會寫程式也能輕鬆架設品牌電商官網！任何產業都能找到合適的專業設計版型，以滑鼠拖曳就能完成網頁編輯，讓架設網站就像堆積木一樣簡單。</p>
+            <ul>
+                <li class="list"><span>✔</span> 豐富版型主題與字型搭配</li>
+                <li class="list"><span>✔</span>RWD 響應式網頁設計</li>
+                <li class="list"><span>✔</span>獨有網址 ＆ SSL 安全憑證</li>
+                <li class="list"><span>✔</span>SEO 搜尋引擎優化</li>
+                <li class="list"><span>✔</span>一頁商店</li>
+                <li class="list"><span>✔</span>開放 HTML／CSS 編輯</li>
+            </ul>
+            <a href="">看看開店祕技</a>
+
+        </div>
+        <div>
+            <img src="https://shoplineimg.com/59c0fd06080f0690b5000cd1/60b0c566ec23b10026db7112/565x.webp?source_format=png">
+        </div>
+    </div>
+
+    <div class="pare_introduce">
+
+        <div class="partOfWord">
+            <h2>免寫程式、多款版型<br>輕鬆打造全能店商網站</h2>
+            <p class="normalp">不會寫程式也能輕鬆架設品牌電商官網！任何產業都能找到合適的專業設計版型，以滑鼠拖曳就能完成網頁編輯，讓架設網站就像堆積木一樣簡單。</p>
+            <ul>
+                <li class="list"><span>✔</span> 豐富版型主題與字型搭配</li>
+                <li class="list"><span>✔</span>RWD 響應式網頁設計</li>
+                <li class="list"><span>✔</span>獨有網址 ＆ SSL 安全憑證</li>
+                <li class="list"><span>✔</span>SEO 搜尋引擎優化</li>
+                <li class="list"><span>✔</span>一頁商店</li>
+                <li class="list"><span>✔</span>開放 HTML／CSS 編輯</li>
+            </ul>
+            <a href="">看看開店祕技</a>
+
+        </div>
+        <div>
+            <img src="https://shoplineimg.com/59c0fd06080f0690b5000cd1/60b0c566ec23b10026db7112/565x.webp?source_format=png">
+        </div>
+    </div>
+
+    <section class="more_service">
+        <h2>更多功能與服務</h2>
+        <ul class="servicediv">
+            <div class="service">
+                <img src="https://img.shoplineapp.com/media/image_clips/5efef5c3b774cf002ab000ce/original.png?1593767363" alt="">
+                <h3>強大庫存及訂單系統</h3>
+                <p>從商品數量、貨況到訂單付款狀態、物流貨態一目瞭然，提升營運效率超有感。</p>
+            </div>
+            <div class="service">
+                <img src="https://img.shoplineapp.com/media/image_clips/5efef5c3b774cf002ab000ce/original.png?1593767363" alt="">
+                <h3>強大庫存及訂單系統</h3>
+                <p>從商品數量、貨況到訂單付款狀態、物流貨態一目瞭然，提升營運效率超有感。</p>
+            </div>
+            <div class="service">
+                <img src="https://img.shoplineapp.com/media/image_clips/5efef5c3b774cf002ab000ce/original.png?1593767363" alt="">
+                <h3>強大庫存及訂單系統</h3>
+                <p>從商品數量、貨況到訂單付款狀態、物流貨態一目瞭然，提升營運效率超有感。</p>
+            </div>
+            <div class="service">
+                <img src="https://img.shoplineapp.com/media/image_clips/5efef5c3b774cf002ab000ce/original.png?1593767363" alt="">
+                <h3>強大庫存及訂單系統</h3>
+                <p>從商品數量、貨況到訂單付款狀態、物流貨態一目瞭然，提升營運效率超有感。</p>
+            </div>
+            <div class="service">
+                <img src="https://img.shoplineapp.com/media/image_clips/5efef5c3b774cf002ab000ce/original.png?1593767363" alt="">
+                <h3>強大庫存及訂單系統</h3>
+                <p>從商品數量、貨況到訂單付款狀態、物流貨態一目瞭然，提升營運效率超有感。</p>
+            </div>
+            <div class="service">
+                <img src="https://img.shoplineapp.com/media/image_clips/5efef5c3b774cf002ab000ce/original.png?1593767363" alt="">
+                <h3>強大庫存及訂單系統</h3>
+                <p>從商品數量、貨況到訂單付款狀態、物流貨態一目瞭然，提升營運效率超有感。</p>
+            </div>
+
+        </ul>
+    </section>
 
     
 </body>
