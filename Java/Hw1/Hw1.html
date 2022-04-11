@@ -38,9 +38,10 @@
         ]
         const body = document.querySelector('body');
 
-        body.innerHTML = `<div class="bimg"><img src="${headimg}"></div><br>`;
+        body.innerHTML = `<div class="bimg">"${body.innerHTML=`<img src="${headimg}">`}"</div><br>`;
+        
         for (var i of me) {
-            body.innerHTML += `<p>${i} :${me[i]}</p><br>`;
+            body.innerHTML += `<p>${i}</p>`;
         }
         for (var i of imgArray) {
             body.innerHTML += `<img src="${i}" >`;
