@@ -40,12 +40,15 @@
 
         body.innerHTML = `<div class="bimg">"${body.innerHTML=`<img src="${headimg}">`}"</div><br>`;
         
-        for (var i of me) {
-            body.innerHTML += `<p>${i}</p>`;
-        }
-        for (var i of imgArray) {
-            body.innerHTML += `<img src="${i}" >`;
-        }
+        me.forEach((word,index)=>{
+            document.write(word+"<br>")
+            
+        })
+        imgArray.forEach((path,index)=>{
+            body.innerHTML += `<img src="${path}" >`;            
+        })
+
+        
         
     </script>
     
