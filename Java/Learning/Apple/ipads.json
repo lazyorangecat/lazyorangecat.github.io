@@ -1,0 +1,12 @@
+[
+    {"model":"iPad Pro"},
+    {"model":"iPad Air"},
+    {"model":"iPad"},
+    {"model":"iPad mini"}
+]
+{
+    "iPad Pro":[],
+    "iPad Air":[],
+    "iPad":[],
+    "iPad mini":[]
+}
