@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "268bfab0-073b-4aef-a12a-19e82fc70a91": {
+      "ProjectGuid": "268bfab0-073b-4aef-a12a-19e82fc70a91",
+      "DisplayName": "Q1",
+      "ColorIndex": 0
+    },
+    "ecb5d8c1-22d8-49db-8611-ae06c7603e46": {
+      "ProjectGuid": "ecb5d8c1-22d8-49db-8611-ae06c7603e46",
+      "DisplayName": "Q2",
+      "ColorIndex": 1
+    },
+    "a9cb5336-efa2-4aad-9ee5-7abe992be14d": {
+      "ProjectGuid": "a9cb5336-efa2-4aad-9ee5-7abe992be14d",
+      "DisplayName": "Q3",
+      "ColorIndex": 2
+    },
+    "56a08bd7-9d9d-441a-902c-9b89f261117c": {
+      "ProjectGuid": "56a08bd7-9d9d-441a-902c-9b89f261117c",
+      "DisplayName": "Q4",
+      "ColorIndex": 3
+    },
+    "2c6c443e-933d-4bdf-ae49-d6a65ba17f42": {
+      "ProjectGuid": "2c6c443e-933d-4bdf-ae49-d6a65ba17f42",
+      "DisplayName": "Q5",
+      "ColorIndex": 4
+    },
+    "d87dfa13-23f9-497e-a2cf-3c2938af9cd1": {
+      "ProjectGuid": "d87dfa13-23f9-497e-a2cf-3c2938af9cd1",
+      "DisplayName": "Q6",
+      "ColorIndex": 5
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "其他檔案",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 6
+}

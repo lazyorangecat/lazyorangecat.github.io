@@ -1,0 +1,8 @@
+C:\Users\User\OneDrive\桌面\BuildSchool\HackThon\HackThon1\Q3\bin\Debug\Q3.exe.config
+C:\Users\User\OneDrive\桌面\BuildSchool\HackThon\HackThon1\Q3\bin\Debug\Q3.exe
+C:\Users\User\OneDrive\桌面\BuildSchool\HackThon\HackThon1\Q3\bin\Debug\Q3.pdb
+C:\Users\User\OneDrive\桌面\BuildSchool\HackThon\HackThon1\Q3\obj\Debug\Q3.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\桌面\BuildSchool\HackThon\HackThon1\Q3\obj\Debug\Q3.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\OneDrive\桌面\BuildSchool\HackThon\HackThon1\Q3\obj\Debug\Q3.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\桌面\BuildSchool\HackThon\HackThon1\Q3\obj\Debug\Q3.exe
+C:\Users\User\OneDrive\桌面\BuildSchool\HackThon\HackThon1\Q3\obj\Debug\Q3.pdb

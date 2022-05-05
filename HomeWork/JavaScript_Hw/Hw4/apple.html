@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+        .color-circle
+        {
+            height: 22px;
+            width: 22px;
+            border-radius: 80%;
+        }
+
+    </style>
+
+
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="main-pic col-12 col-md-6">
+                    <img src="" alt="檔案路徑">
+                </div>
+
+                <div class="main-specs col-12 col-md-6">
+                    各組規格
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+
+    <script>
+        let productArray = [
+            {
+                productName: 'iPad',
+                baseImg: 'iPad產品總圖.jpg',
+                basePrice: 3000,
+                specArray: [ //Specification
+                    {
+                        title: "機型",
+                        key: 'model',
+                        options: [
+                            { data: '9吋顯示器', extraPrice: 0, description: 'Liquid Retina 顯示器', },
+                            { data: '12.2吋顯示器', extraPrice: 10000, description: 'Liquid Retina XDR 顯示器', },
+                        ],
+
+
+                        choosed: null,
+                        changePrice:true,
+                        changeImg:true,
+
+                    },
+                    {
+                        title: "外觀",
+                        key: 'color',
+                        options: [
+                            { data: '#777', description: '太空灰色', },
+                            { data: '#ddd', description: '銀色', },
+                            { data: '#faa', description: '玫瑰金色', },
+                            { data: '#0f0', description: '綠色', },
+                        ],
+
+
+                        choosed: null,
+                        changePrice:false,
+                        changeImg:true,
+
+                    },
+                    {
+                        title: '儲存裝置',
+                        key: 'storage',
+                        options: [
+                            { data: '128GB', extraPrice: 0, },
+                            { data: '256GB', extraPrice: 1000, },
+                            { data: '512GB', extraPrice: 2000, },
+                            { data: '1TB', extraPrice: 4000, },
+                        ],
+
+
+                        choosed: null,
+                        changePrice:true,
+                        changeImg:false,
+
+                    },
+                    {
+                        title: '連線能力',
+                        key: 'network',
+                        options: [
+                            { data: 'Wi-Fi', extraPrice: 0, },
+                            { data: 'Wi-Fi + 行動網路', extraPrice: 5000, },
+                        ],
+
+
+                        choosed: null,
+                        changePrice:true,
+                        changeImg:false,
+
+                    },
+                ]
+            }
+        ]
+        //靜態UI
+        const nav = document.querySelector('nav')
+        const h2_name = document.querySelector('main h2')
+
+        const span_price = document.querySelector('#total')
+        const img_ = document.querySelector('.main-pic')
+        const ul_specs = document.querySelector('.main-specs')
+        //(一)導覽列+產品線按鈕(一種產品線資料=一顆按鈕)
+        productArray.forEach(product => {
+            let btn = document.createElement('button')
+            nav.appendChild(btn)
+
+            btn.innerText = product.productName
+            btn.addEventListener('click', () => {
+                selectProduct(product)
+            })
+        })
+        //頁面剛進來，預先選某一產品線
+        selectProduct(productArray[0])
+
+        function selectProduct(product) {
+            //改變產品的4項選項
+            h2_name.innerHTML = product.productName
+            img_.alt = product.baseImg
+            span_price.innerHTML = product.basePrice
+
+            //各組規格
+            ul_specs.innerHTML = ""
+            product.specArray.forEach(spec => {
+                let li = document.createElement('li')
+                ul_specs.appendChild(li)
+
+                // 規格標題
+                let h3 = document.createElement('h3')
+                li.appendChild(h3)
+                h3.innerText = spec.title
+
+                // 規格各選項
+                spec.options.forEach(option => {
+                    let button = document.createElement('button')
+                    li.appendChild(button)
+
+                    //大字
+                    if(spec.key=='color'){
+                        let div=document.createElement('div')
+                        button.appendChild(div)
+                        div.classList.add('color-circle')
+                        div.style.backgroundColor=option.data
+                    }
+                    else{
+                        let h4=document.createElement('h4')
+                        button.appendChild(h4)
+                        h4.innerText=option.data
+                    }
+
+                    // 小字
+                    if(option.description!=undefined){
+                        let span=document.createElement('span')
+                        button.appendChild(span)
+                        span.innerText=option.description
+                    }
+                    //加價
+                    if(option.extraPrice!=undefined){
+                        let p =document.createElement('p')
+                        button.appendChild(p)
+                        p.innerText="+$"+option.extraPrice
+                        p.classList.add('bg-warning')
+                    }
+                    // button.append(h4,span,p)
+                    //
+                    button.addEventListener('click',()=>{
+                        //1.紀錄"此規格"選種了"此選項"
+                        spec.choosed=option
+                        //2.改樣式
+                            //移除同組按鈕的.choosed
+                            //自己要加.choosed
+                        li.querySelectorAll('button').forEach(b=>{
+                            b.classList.remove('choosed')
+                        })
+                        button.classList.add('choosed')
+                        //3.刷新圖和錢
+                        //與上個範例差別:不用全選完，也能決定錢和圖
+                        //有的規格影響圖，有的影響錢
+                        if(spec.changePrice){
+                            refreshPrice()
+                        }
+                        if(spec.changeImg){
+                            refreshImg()
+                        }
+
+                    })
+
+                })
+
+                //隔線
+                li.appendChild(document.createElement('hr'))
+            })
+
+            function refreshPrice(){
+                // //收集spec.choosed非null的
+                // let choosedSpecs=
+                //     product.specArray.filter(spec=> spec.choosed!=null&&spec.changePrice)
+                // //只留選中的選項
+                // let chossedOptions=choosedSpecs.map(spec=>spec.choosed)                
+                // //選項只保留錢
+                // let extraPrices=chossedOptions.map(option=>option.extraPrice)
+
+                let extraPrices=product.specArray
+                .filter(spec=> spec.choosed!=null&&spec.changePrice)
+                .map(spec=>spec.choosed.extraPrice)
+
+                //統計額外加價
+                let totalExtra=extraPrices.reduce((sum,x)=>sum+x)
+                
+                //顯示總價
+                span_price.innerHTML=product.basePrice+totalExtra
+
+            }
+
+            function refreshImg(){
+                let choosedData=product.specArray
+                    .filter(spec=>spec.choosed!=null&&spec.changeImg)
+                    .map(spec=>spec.choosed.data)
+
+                //組合出圖檔名稱
+                let filename=choosedData.reduce((sum,x)=>sum+"_"+x)
+
+                //顯示 圖
+                img_.alt="/"+filename+".jpg"
+
+
+            }
+        }
+
+    </script>
+</body>
+
+</html>
