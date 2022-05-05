@@ -17,8 +17,9 @@
     <input type="text">
     <br>
     <button id="reset">C</button>
-    <button id="back">ㄑㄑ</button>
+    <button id="back">&#8592 </button>
     <button id="equal">=</button>
+    <button id="dot">.</button>
     <br>
     <button class="num">1</button>
     <button class="num">2</button>
@@ -57,7 +58,7 @@
         const btn_op=document.querySelectorAll('.op')
 
         //Data
-        let L='',op=''
+        let L='',R='',op='',ans='0'
         
         let operations=[
             {op:'+',calc:(a,b)=>a+b},
@@ -78,7 +79,12 @@
 
         btn_num.forEach(btn=>{
             btn.onclick=()=>{
+                if(input.value==ans)
+                input.value=''
+                
                 input.value+=btn.innerHTML
+                
+
             }
         })
         btn_dot.onclick=()=>{
@@ -102,13 +108,13 @@
         })
         
         btn_equal.onclick=()=>{
-            let R=parseFloat(input.value)
+            R=parseFloat(input.value)
             
             //計算方案
-            let operation=operation.find(x=>x.op==op)
+            let operation=operations.find(x=>x.op==op)
 
             // 執行計算方法
-            let ans = operation.calc(L,R)
+            ans = operation.calc(L,R)
 
             reset()
             input.value=ans
