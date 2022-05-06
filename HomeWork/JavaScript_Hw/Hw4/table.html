@@ -39,7 +39,7 @@
 
     <script>
 
-const marketingShare = {
+        const marketingShare = {
             version: "v1.0",
             publish: "2021/12/31",
             titles: ["排名", "公司名稱", "國別", "市佔率"],
@@ -57,16 +57,57 @@ const marketingShare = {
             ]
         };
 
-        let companies=[],data=[];
+        let companies = [], data = [];
 
-        window.onload=function(){
+        window.onload = function () {
             marketingShare.data.forEach(company => {
                 companies.push(company.Name);
                 data.push(company.Ratio)
-                
+
             });
-            drawPieChart(companies,data)
+            drawPieChart(companies, data)
+            createTable()
         }
+        let table = document.querySelector("table")
+    </script>
+
+    <script>
+        function createTable() {
+            createThead()
+            createTbody()
+        }
+        function createThead() {
+            let thead = document.createElement("thead")
+            let tr = document.createElement("tr")
+
+            marketingShare.titles.forEach((thtext) => {
+                let th = document.createElement("th")
+                th.innerText = thtext
+                tr.appendChild(th)
+                thead.appendChild(tr)
+                table.appendChild(thead);
+            })
+        }
+
+        function createTbody() {
+            let tbody = document.createElement("tbody")
+            marketingShare.data.forEach((text)=>{
+                let tr = document.createElement("tr")
+                let rank=document.createElement("td")
+                rank.innerText=text.Ranking
+                let name=document.createElement("td")
+                name.innerText=text.Name
+                let country=document.createElement("td")
+                country.innerText=text.Country
+                let ratio=document.createElement("td")
+                ratio.innerText=text.Ratio
+                tr.append(rank,name,country,ratio)
+                tbody.appendChild(tr)
+                table.append(tbody)
+            })
+            
+        }
+
     </script>
 
     <script>
@@ -77,9 +118,9 @@ const marketingShare = {
             var pieChart = new Chart(ctxPie, {
                 type: 'pie',
                 data: {
-                    labels: ["台積電", "三星電子", "聯電", "格羅方德", "中芯國際", "華虹半導體","力積電", "世界先進", "高塔半導體", "東部高科"],
+                    labels: ["台積電", "三星電子", "聯電", "格羅方德", "中芯國際", "華虹半導體", "力積電", "世界先進", "高塔半導體", "東部高科"],
                     datasets: [{
-                        data: [53.1, 17.3, 7.2, 6.1, 5.3, 2.6, 1.8,  1.4, 1.4, 1 ],
+                        data: [53.1, 17.3, 7.2, 6.1, 5.3, 2.6, 1.8, 1.4, 1.4, 1],
                         backgroundColor: [
                             'rgb(255, 99, 132)',
                             'rgb(255,75,50)',
@@ -114,16 +155,9 @@ const marketingShare = {
                 }
             });
         }
-    
-        function createTable(){
 
-            let table=document.createElement("table")
-            table.setAttribute("class","table table-dark")
 
-            let tbody
 
-        }
-    
     </script>
 </body>
 
