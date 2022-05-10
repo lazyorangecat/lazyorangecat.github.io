@@ -107,18 +107,21 @@ namespace LinqHomework
             result5 = from v in ordered
                       orderby v.Duration
                       select $"No{(ordered.ToList().IndexOf(v) + 1)}:{v.Name}";
+            Console.WriteLine(
+                String.Join(Environment.NewLine, result5));
 
             // 6. 將所有影片進行以"類型"分類，並顯示以下樣式(注意縮排)
-                      /* 
-                      動漫:
-                          天竺鼠車車
-                          鬼滅之刃
-                      */
+            /* 
+            動漫:
+                天竺鼠車車
+                鬼滅之刃
+            */
             Console.WriteLine($"{Environment.NewLine}Q: 將所有影片進行以'類型'分類");
 
             var result6=videoList.GroupBy(v=>v.Type)
-                .Select(g =>$"{g.Key}:{     string.Concat(  g.Select(v=>    "\n\t"+v.Name)  )}");
-
+                .Select(g =>$"{g.Key}:{string.Concat(g.Select(v=>"\n\t"+v.Name)  )}");
+            Console.WriteLine(
+                String.Join(Environment.NewLine, result6));
             // 7. 找到第一個喜歡歐美影片的人
             Console.WriteLine($"{Environment.NewLine}Q: 找到第一個喜歡歐美影片的人");
 
@@ -132,10 +135,34 @@ namespace LinqHomework
                       select p.Name).FirstOrDefault();
             Console.WriteLine(result7);
 
-            // 8. 找到每個人喜歡的影片(根據國家以及類型)，ex: Bill: 天竺鼠車車, 倚天屠龍記2019
-            Console.WriteLine($"{Environment.NewLine}Q: 找到每個人喜歡的影片");
 
-            var result8 = personList.Select(p => $"{p.Name}:{"此人p所喜歡的影片串"}");
+            //8.找到每個人喜歡的影片(根據國家以及類型)，ex: Bill: 天竺鼠車車, 倚天屠龍記2019
+            Console.WriteLine($"{Environment.NewLine}Q: 找到每個人喜歡的影片");
+            foreach (var p in personList)    //從人物清單抓出人來           
+            {
+                Console.WriteLine(p.Name);                //先把名字抓出來
+                //根據國家以及類型
+                Console.WriteLine(
+                    String.Join("、", videoList.Where((v) => p.CountryPrefer.Contains(v.Country) && p.TypePrefer.Contains(v.Type))
+                    .Select((x) => x.Name)));
+            }
+            //找到每個人喜歡的影片檢討每個人都要 對應一個答案字串 => 從personList出發
+            //1.將每個 person p 轉成需要的答案字串
+            var result8 =
+            personList.Select(p => $"{p.Name}: {"此人p所喜歡的影片字串"}");
+            //2.此人p所喜歡的影片串 = 從所有影片篩選，此人p'喜歡'的影片保留
+            personList.Select(p => $"{p.Name}: {videoList.Where(v => "v被p喜歡否?" == "是") }");            //在 => 後的 只要是變數(videoList)都能參與
+            //3.p喜歡v = v的 國家/類型 在p的 國家/類型 偏好清單中
+            personList.Select(p => $"{p.Name}: {videoList.Where(v => p.CountryPrefer.Contains(v.Country) && p.TypePrefer.Contains(v.Type)) }");
+            //4.此人p 所喜歡的影片串，只取名稱，再組成一個字串    先補.Select(v => v.Name) 只取影片名稱    在 string.Join(", ", 影片名稱串)
+            result8 =
+            personList.Select(p => $"{p.Name}:"+ $"{string.Join(", ",videoList.Where(v => p.CountryPrefer.Contains(v.Country) && p.TypePrefer.Contains(v.Type)).Select(v => v.Name))}");
+            
+            
+            
+            Console.WriteLine(String.Join(Environment.NewLine, result8));
+
+
 
             // 9. 列出所有類型的影片總時長，ex: 動漫: 100min
             Console.WriteLine($"{Environment.NewLine}Q: 列出所有類型的影片總時長");
