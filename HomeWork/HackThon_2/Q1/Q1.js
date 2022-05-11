@@ -15,6 +15,7 @@ let btn = document.querySelectorAll(".num");
         function replay() {
             min = 0;
             max = 100;
+            input.value=""
             anser = Math.floor(Math.random() * 99) + 1;
             show();
 
@@ -38,7 +39,12 @@ let btn = document.querySelectorAll(".num");
         function check() {
 
             enterAns = parseInt(input.value);
-            if (enterAns < min || enterAns > max) {
+            if(input.value=="")
+            {
+                alert(`請輸入數字`)
+                return;
+            }
+            else if (enterAns < min || enterAns > max) {
                 alert(`請輸入${min}~${max}的值`);
             }
             else if (enterAns > anser) {
