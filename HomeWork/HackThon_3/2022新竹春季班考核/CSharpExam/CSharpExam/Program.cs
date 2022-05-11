@@ -160,8 +160,9 @@ namespace CSharpExam
                 //var result8=
                 //studentList.Select(s => $"{s.Name}:{courseList.Where(c=>s.CourseList.Contains(c.CourseId)).Select(c=>c.Name)}");
                 var result8 =
-                studentList.Select(s => $"{s.Name}:\n\t{string.Join($"\n\t", courseList.Where(c => s.CourseList.Contains(c.CourseId)).Select(c => c.Name))}");
-                
+                studentList.Select(s => 
+                $"{s.Name}:\n\t{string.Join($"\n\t",courseList.Where(c => s.CourseList.Contains(c.CourseId)).Select(c => c.Name))}");
+      
                 Console.WriteLine(String.Join(Environment.NewLine, result8));
                 
 
@@ -208,10 +209,15 @@ namespace CSharpExam
                 //總分加起來最少的人
                 //studentList.Select(s => $"{s.Name}:{"此人所選的課的加總"}");
                 //studentList.Select(s => $"{s.Name}:{courseList.GroupBy().Where(c=>s.CourseList.Contains(c.CourseId))}");
-                var result10 =
-                studentList.Select(s => $"{s.Name}:{string.Join($"", courseList.Where(c => s.CourseList.Contains(c.CourseId)).Sum(c => c.Credit))}");
-
+                
+                var result10 = studentList.Where
+                    (s=>courseList.Where
+                    (c =>s.CourseList.Contains(c.CourseId)).Sum(d => d.Credit) < 10)
+                    .Select(s => s.Name);
+                
                 Console.WriteLine(String.Join(Environment.NewLine, result10));
+
+
 
                 #endregion
 
@@ -219,11 +225,19 @@ namespace CSharpExam
                 // 11. 找出誰最後獲得學分數最高
                 Console.WriteLine("11. 找出誰最後獲得學分數最高");
                 {
-                    //作答區
-
+                    var max= studentList.Max
+                        (s => courseList.Where(c => s.CourseList.Contains(c.CourseId)).Sum(d => d.Credit));
+                    var result11 = studentList.Where
+                        (s => courseList.Where(c => s.CourseList.Contains(c.CourseId)).Sum(d => d.Credit)==max).Select(s=>s.Name);
+                        
+                    
+                    Console.WriteLine(String.Join(Environment.NewLine, result11));
                 }
 
+
+
                 Console.WriteLine($"{Environment.NewLine}");
+
                 #endregion
 
                 #region 第12題(加分題)
