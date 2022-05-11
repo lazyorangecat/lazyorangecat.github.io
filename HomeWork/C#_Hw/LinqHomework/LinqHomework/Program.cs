@@ -35,7 +35,7 @@ namespace LinqHomework
             };
 
             // 1. 找出所有日本的影片名稱
-            Console.WriteLine($"{Environment.NewLine}Q: 找出所有日本的影片名稱");
+            Console.WriteLine($"{Environment.NewLine}Q1: 找出所有日本的影片名稱");
 
             var step1 = videoList.Where(v => v.Country == "日本");
             var step2 = step1.Select(v => v.Name);
@@ -65,7 +65,7 @@ namespace LinqHomework
 
 
             // 2. 找出所有歐美的影片且類型為"影集"的影片名稱
-            Console.WriteLine($"{Environment.NewLine}Q: 找出所有歐美的影片且類型為'影集'的影片名稱");
+            Console.WriteLine($"{Environment.NewLine}Q2: 找出所有歐美的影片且類型為'影集'的影片名稱");
 
             
             Console.WriteLine(string.Join(",", 
@@ -80,13 +80,13 @@ namespace LinqHomework
                 select v.Name));
 
             // 3. 是否有影片片長超過120分鐘的影片
-            Console.WriteLine($"{Environment.NewLine}Q: 是否有影片片長超過120分鐘的影片");
+            Console.WriteLine($"{Environment.NewLine}Q3: 是否有影片片長超過120分鐘的影片");
 
             var result3=videoList.Any(v=>v.Duration>120);
             Console.WriteLine(result3?"是":"否");
 
             // 4. 請列出所有人的名稱，並且用大寫英文表示，ex: Bill -> BILL
-            Console.WriteLine($"{Environment.NewLine}Q: 請列出所有人的名稱，並且用大寫英文表示");
+            Console.WriteLine($"{Environment.NewLine}Q4: 請列出所有人的名稱，並且用大寫英文表示");
 
             var result4 = personList.Select(p=>$"{p.Name}\t->{p.Name.ToUpper()}");
             result4 = from p in personList
@@ -97,7 +97,7 @@ namespace LinqHomework
 
 
             // 5. 將所有影片用片長排序(最長的在前)，並顯示排序過的排名以及片名，ex: No1: 天竺鼠車車
-            Console.WriteLine($"{Environment.NewLine}Q: 將所有影片用片長排序(最長的在前)，並顯示排序過的排名以及片名");
+            Console.WriteLine($"{Environment.NewLine}Q5: 將所有影片用片長排序(最長的在前)，並顯示排序過的排名以及片名");
             videoList.OrderByDescending(v=>v.Duration)
                 .Select((v,index)=>$"No{(index+1).ToString().PadLeft(2)}:{v.Name}");
 
@@ -105,7 +105,7 @@ namespace LinqHomework
             var result5 = ordered.Select(v => $"No{(ordered.ToList().IndexOf(v) + 1)}:{v.Name}");
 
             result5 = from v in ordered
-                      orderby v.Duration
+                      
                       select $"No{(ordered.ToList().IndexOf(v) + 1)}:{v.Name}";
             Console.WriteLine(
                 String.Join(Environment.NewLine, result5));
@@ -116,14 +116,14 @@ namespace LinqHomework
                 天竺鼠車車
                 鬼滅之刃
             */
-            Console.WriteLine($"{Environment.NewLine}Q: 將所有影片進行以'類型'分類");
+            Console.WriteLine($"{Environment.NewLine}Q6: 將所有影片進行以'類型'分類");
 
             var result6=videoList.GroupBy(v=>v.Type)
                 .Select(g =>$"{g.Key}:{string.Concat(g.Select(v=>"\n\t"+v.Name)  )}");
             Console.WriteLine(
                 String.Join(Environment.NewLine, result6));
             // 7. 找到第一個喜歡歐美影片的人
-            Console.WriteLine($"{Environment.NewLine}Q: 找到第一個喜歡歐美影片的人");
+            Console.WriteLine($"{Environment.NewLine}Q7: 找到第一個喜歡歐美影片的人");
 
             var result7 = personList.FirstOrDefault(p => p.CountryPrefer.Contains("歐美")).Name;
 
@@ -137,7 +137,7 @@ namespace LinqHomework
 
 
             //8.找到每個人喜歡的影片(根據國家以及類型)，ex: Bill: 天竺鼠車車, 倚天屠龍記2019
-            Console.WriteLine($"{Environment.NewLine}Q: 找到每個人喜歡的影片");
+            Console.WriteLine($"{Environment.NewLine}Q8: 找到每個人喜歡的影片");
             foreach (var p in personList)    //從人物清單抓出人來           
             {
                 Console.WriteLine(p.Name);                //先把名字抓出來
@@ -165,7 +165,7 @@ namespace LinqHomework
 
 
             // 9. 列出所有類型的影片總時長，ex: 動漫: 100min
-            Console.WriteLine($"{Environment.NewLine}Q: 列出所有類型的影片總時長");
+            Console.WriteLine($"{Environment.NewLine}Q9: 列出所有類型的影片總時長");
 
            var result9=videoList.GroupBy(v=>v.Type)
                 .Select(g=>$"{g.Key}:{g.Sum(v=>v.Duration)}min");
@@ -177,7 +177,7 @@ namespace LinqHomework
             Console.WriteLine(string.Join(Environment.NewLine, result9));
 
             // 10. 列出所有國家出產的影片數量，ex: 日本: 3部
-            Console.WriteLine($"{Environment.NewLine}Q: 列出所有國家出產的影片數量");
+            Console.WriteLine($"{Environment.NewLine}Q10: 列出所有國家出產的影片數量");
 
             var result10 = videoList.GroupBy(v => v.Country)
                 .Select(g => $"{g.Key}:{g.Count()}部");
