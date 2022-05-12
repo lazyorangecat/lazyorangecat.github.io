@@ -139,8 +139,8 @@
             //產生District Dropdownlist各區選項
             districts.forEach((item, index) => {
                 let option1 = document.createElement('option');
-                option1.value = item.district;
-                option1.text = item.district + " - " + item.zipcode;
+                option1.value = item.District;
+                option1.text = item.District + " - " + item.ZipCode;
                 districtSelect.add(option1);
             });
 
@@ -185,7 +185,7 @@
             }
 
             xhr.open("POST", "");
-            xhr.send(formData);
+            xhr.send(FormData);
         }
 
         let data2DArray = []; //ex:[ ["臺北市", "中正區"", "100"],  ["臺北市", "大同區"", "103"], ...]
@@ -201,7 +201,7 @@
                 let titles = ["縣市", "行政區", "郵遞區號"];
 
                 //debugger;
-                data2DArray = city.districts.map(d => { return [city.City, d.District, d.Zipcode] });
+                data2DArray = city.Districts.map(d => { return [city.City, d.District, d.ZipCode] });
 
                 createTable(titles, data2DArray);
 
@@ -264,11 +264,9 @@
                 let tr = $ce("tr");
                 row.forEach(column => {
                     let td = $ce("td");
-                    if (column.toString().includes("png")) {
-                        td.innerHTML = `<img src="${column}">`;
-                    } else {
+                    
                         td.innerText = column;
-                    }
+                    
 
                     tr.append(td);
                 });
