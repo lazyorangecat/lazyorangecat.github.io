@@ -7407,11 +7407,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\OneDrive\\桌面\\BuildSchool\\JavaScript\\JavaScript\\BackendWebApi\\BackendWebApi.csproj",
+      "projectUniqueName": "C:\\Users\\User\\OneDrive\\桌面\\BuildSchool\\git\\lazyorangecat.github.io\\XiJiangHua_JavaScript\\JavaScript\\BackendWebApi\\BackendWebApi.csproj",
       "projectName": "BackendWebApi",
-      "projectPath": "C:\\Users\\User\\OneDrive\\桌面\\BuildSchool\\JavaScript\\JavaScript\\BackendWebApi\\BackendWebApi.csproj",
+      "projectPath": "C:\\Users\\User\\OneDrive\\桌面\\BuildSchool\\git\\lazyorangecat.github.io\\XiJiangHua_JavaScript\\JavaScript\\BackendWebApi\\BackendWebApi.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\OneDrive\\桌面\\BuildSchool\\JavaScript\\JavaScript\\BackendWebApi\\obj\\",
+      "outputPath": "C:\\Users\\User\\OneDrive\\桌面\\BuildSchool\\git\\lazyorangecat.github.io\\XiJiangHua_JavaScript\\JavaScript\\BackendWebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

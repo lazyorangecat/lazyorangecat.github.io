@@ -81,8 +81,8 @@
         function genSelectOptions(zipcodeArray) {
             zipcodeArray.forEach((item, index) => {
                 let option1 = document.createElement('option');
-                option1.value = item.city;
-                option1.text = item.city;
+                option1.value = item.City;
+                option1.text = item.City;
 
                 citySelect.add(option1, null);
             });
@@ -132,8 +132,8 @@
             districtSelect.add(option0, null);
 
             //取得District資料
-            let cityArray = zipcodeArray.filter(item => item.city == cityText);
-            let districts = cityArray[0].districts;
+            let cityArray = zipcodeArray.filter(item => item.City == cityText);
+            let districts = cityArray[0].Districts;
 
 
             //產生District Dropdownlist各區選項
@@ -197,11 +197,11 @@
             //根據選取的City, 以Table列表所有行政區的郵遞區號
             if (cityValue !== '') {
 
-                let city = zipcodeArray.filter(x => x.city == cityText)[0];
+                let city = zipcodeArray.filter(x => x.City == cityText)[0];
                 let titles = ["縣市", "行政區", "郵遞區號"];
 
                 //debugger;
-                data2DArray = city.districts.map(d => { return [city.city, d.district, d.zipcode] });
+                data2DArray = city.districts.map(d => { return [city.City, d.District, d.Zipcode] });
 
                 createTable(titles, data2DArray);
 
