@@ -169,6 +169,11 @@
         //Submit提交資料
         function submitData() {
             //建立FormData
+            let formData=new FormData()
+            formData.append("city",citySelect.selectedOptions[0].value)
+            formData.append("district",districtSelect.selectedOptions[0].text.split("-")[0].trim())
+            formData.append("city",districtSelect.selectedOptions[0].text.split("-")[1].trim())
+
             
 
             
@@ -184,8 +189,8 @@
                 }
             }
 
-            xhr.open("POST", "");
-            xhr.send(FormData);
+            xhr.open("POST", "https://localhost:44325/api/Zipcode");
+            xhr.send(formData);
         }
 
         let data2DArray = []; //ex:[ ["臺北市", "中正區"", "100"],  ["臺北市", "大同區"", "103"], ...]
