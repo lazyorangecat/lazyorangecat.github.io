@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c816c9f2-2d0b-4f08-9ec7-0c88d3a09e52": {
+      "ProjectGuid": "c816c9f2-2d0b-4f08-9ec7-0c88d3a09e52",
+      "DisplayName": "ExLinqSample001",
+      "ColorIndex": 0
+    },
+    "9d4a73db-b0c0-4e8f-bfd5-fa85884fd317": {
+      "ProjectGuid": "9d4a73db-b0c0-4e8f-bfd5-fa85884fd317",
+      "DisplayName": "ExLinqSample002",
+      "ColorIndex": 1
+    },
+    "c33c5a56-1174-4f59-83ab-8e867a8c526c": {
+      "ProjectGuid": "c33c5a56-1174-4f59-83ab-8e867a8c526c",
+      "DisplayName": "ExLinqSample003",
+      "ColorIndex": 2
+    },
+    "9078b1df-fe25-4e2e-bf34-66399d860a4a": {
+      "ProjectGuid": "9078b1df-fe25-4e2e-bf34-66399d860a4a",
+      "DisplayName": "ExLinqSample004",
+      "ColorIndex": 3
+    },
+    "b7e2562d-5628-4b49-9038-938d7973075f": {
+      "ProjectGuid": "b7e2562d-5628-4b49-9038-938d7973075f",
+      "DisplayName": "ExLinqSample005",
+      "ColorIndex": 4
+    },
+    "37c5cde8-0d94-4888-9c40-b6ac64fc6b51": {
+      "ProjectGuid": "37c5cde8-0d94-4888-9c40-b6ac64fc6b51",
+      "DisplayName": "ExLinqSample006",
+      "ColorIndex": 5
+    },
+    "b2ca35e2-4ecd-451e-90e5-4664fbee49e3": {
+      "ProjectGuid": "b2ca35e2-4ecd-451e-90e5-4664fbee49e3",
+      "DisplayName": "ExLinqSample007",
+      "ColorIndex": 6
+    },
+    "e9e66bbf-d98e-45a1-a3e9-2e9ffaa4d301": {
+      "ProjectGuid": "e9e66bbf-d98e-45a1-a3e9-2e9ffaa4d301",
+      "DisplayName": "ExLinqSample008",
+      "ColorIndex": 7
+    },
+    "3cf30728-02b8-4c3d-94d2-907fd02359fc": {
+      "ProjectGuid": "3cf30728-02b8-4c3d-94d2-907fd02359fc",
+      "DisplayName": "ExLinqSample009",
+      "ColorIndex": 8
+    },
+    "d2110f95-0e89-4272-a9ec-055ef6783f91": {
+      "ProjectGuid": "d2110f95-0e89-4272-a9ec-055ef6783f91",
+      "DisplayName": "ExLinqSample010",
+      "ColorIndex": 9
+    },
+    "2f3395ed-65d1-41ac-9a10-68af247ee293": {
+      "ProjectGuid": "2f3395ed-65d1-41ac-9a10-68af247ee293",
+      "DisplayName": "ExLinqSample011",
+      "ColorIndex": 10
+    },
+    "55889b45-3d1d-4011-ba7a-424d2288ed19": {
+      "ProjectGuid": "55889b45-3d1d-4011-ba7a-424d2288ed19",
+      "DisplayName": "ExLinqSample012",
+      "ColorIndex": 11
+    }
+  },
+  "NextColorIndex": 12
+}

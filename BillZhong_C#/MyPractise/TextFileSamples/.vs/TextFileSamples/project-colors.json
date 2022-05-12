@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c2d1d77f-cd87-43cb-8882-7e13463910de": {
+      "ProjectGuid": "c2d1d77f-cd87-43cb-8882-7e13463910de",
+      "DisplayName": "TextFileSamples001",
+      "ColorIndex": 0
+    },
+    "3ec5247d-4f23-433b-b13b-34e4500fa689": {
+      "ProjectGuid": "3ec5247d-4f23-433b-b13b-34e4500fa689",
+      "DisplayName": "TextFileSamples003",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "其他檔案",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}

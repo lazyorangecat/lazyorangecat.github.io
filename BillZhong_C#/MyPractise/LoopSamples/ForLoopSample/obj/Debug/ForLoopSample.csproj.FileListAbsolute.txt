@@ -1,0 +1,8 @@
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\LoopSamples\ForLoopSample\bin\Debug\ForLoopSample.exe.config
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\LoopSamples\ForLoopSample\bin\Debug\ForLoopSample.exe
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\LoopSamples\ForLoopSample\bin\Debug\ForLoopSample.pdb
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\LoopSamples\ForLoopSample\obj\Debug\ForLoopSample.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\LoopSamples\ForLoopSample\obj\Debug\ForLoopSample.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\LoopSamples\ForLoopSample\obj\Debug\ForLoopSample.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\LoopSamples\ForLoopSample\obj\Debug\ForLoopSample.exe
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\LoopSamples\ForLoopSample\obj\Debug\ForLoopSample.pdb

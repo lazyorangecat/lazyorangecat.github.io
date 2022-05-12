@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "49f37200-d647-4c84-b891-604bcb02c54d": {
+      "ProjectGuid": "49f37200-d647-4c84-b891-604bcb02c54d",
+      "DisplayName": "DLLSample001",
+      "ColorIndex": 0
+    },
+    "3ea2f441-25ea-4cd1-a275-fa6539f679ab": {
+      "ProjectGuid": "3ea2f441-25ea-4cd1-a275-fa6539f679ab",
+      "DisplayName": "MyLibrary",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

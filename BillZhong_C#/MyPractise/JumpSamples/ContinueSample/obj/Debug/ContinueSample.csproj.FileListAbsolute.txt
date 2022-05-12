@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\JumpSamples\ContinueSample\bin\Debug\ContinueSample.exe.config
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\JumpSamples\ContinueSample\bin\Debug\ContinueSample.exe
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\JumpSamples\ContinueSample\bin\Debug\ContinueSample.pdb
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\JumpSamples\ContinueSample\obj\Debug\ContinueSample.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\JumpSamples\ContinueSample\obj\Debug\ContinueSample.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\JumpSamples\ContinueSample\obj\Debug\ContinueSample.exe
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\JumpSamples\ContinueSample\obj\Debug\ContinueSample.pdb

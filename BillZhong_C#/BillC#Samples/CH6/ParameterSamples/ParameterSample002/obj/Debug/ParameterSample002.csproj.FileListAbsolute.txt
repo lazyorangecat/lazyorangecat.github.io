@@ -1,0 +1,12 @@
+C:\CUST_Samples\6\ParameterSamples\ParameterSample002\bin\Debug\ParameterSample002.exe.config
+C:\CUST_Samples\6\ParameterSamples\ParameterSample002\bin\Debug\ParameterSample002.exe
+C:\CUST_Samples\6\ParameterSamples\ParameterSample002\bin\Debug\ParameterSample002.pdb
+C:\CUST_Samples\6\ParameterSamples\ParameterSample002\obj\Debug\ParameterSample002.exe
+C:\CUST_Samples\6\ParameterSamples\ParameterSample002\obj\Debug\ParameterSample002.pdb
+C:\BuildSchool\台北\TPE2021_summer\Samples\CH6\ParameterSamples\ParameterSample002\bin\Debug\ParameterSample002.exe.config
+C:\BuildSchool\台北\TPE2021_summer\Samples\CH6\ParameterSamples\ParameterSample002\bin\Debug\ParameterSample002.exe
+C:\BuildSchool\台北\TPE2021_summer\Samples\CH6\ParameterSamples\ParameterSample002\bin\Debug\ParameterSample002.pdb
+C:\BuildSchool\台北\TPE2021_summer\Samples\CH6\ParameterSamples\ParameterSample002\obj\Debug\ParameterSample002.csprojAssemblyReference.cache
+C:\BuildSchool\台北\TPE2021_summer\Samples\CH6\ParameterSamples\ParameterSample002\obj\Debug\ParameterSample002.csproj.CoreCompileInputs.cache
+C:\BuildSchool\台北\TPE2021_summer\Samples\CH6\ParameterSamples\ParameterSample002\obj\Debug\ParameterSample002.exe
+C:\BuildSchool\台北\TPE2021_summer\Samples\CH6\ParameterSamples\ParameterSample002\obj\Debug\ParameterSample002.pdb

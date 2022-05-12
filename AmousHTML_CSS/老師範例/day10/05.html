@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+            display: flex;
+        }
+        nav a{
+            display: block;
+            position: relative;
+            background-color: #948794;
+            color: #fff;
+            text-decoration: none;
+        }
+        nav span{
+            display: block;
+            padding: 10px 30px;
+        }
+        nav .ct{}
+        nav .en{
+            opacity: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+        }
+        a:hover .ct{
+            opacity: 0;
+        }
+        a:hover .en{
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <nav>
+        <a href="#">
+            <span class="ct">關於我們</span>
+            <span class="en">about</span>
+        </a>
+    </nav>
+
+
+
+</body>
+</html>

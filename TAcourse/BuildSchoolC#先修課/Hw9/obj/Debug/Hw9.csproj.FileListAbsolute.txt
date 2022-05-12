@@ -1,0 +1,8 @@
+C:\Users\User\Desktop\BuildSchool\BuildSchoolLab\Hw9\bin\Debug\Hw9.exe.config
+C:\Users\User\Desktop\BuildSchool\BuildSchoolLab\Hw9\bin\Debug\Hw9.exe
+C:\Users\User\Desktop\BuildSchool\BuildSchoolLab\Hw9\bin\Debug\Hw9.pdb
+C:\Users\User\Desktop\BuildSchool\BuildSchoolLab\Hw9\obj\Debug\Hw9.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\BuildSchool\BuildSchoolLab\Hw9\obj\Debug\Hw9.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\BuildSchool\BuildSchoolLab\Hw9\obj\Debug\Hw9.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\BuildSchool\BuildSchoolLab\Hw9\obj\Debug\Hw9.exe
+C:\Users\User\Desktop\BuildSchool\BuildSchoolLab\Hw9\obj\Debug\Hw9.pdb

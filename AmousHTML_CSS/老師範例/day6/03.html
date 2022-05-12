@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .main-header{
+            padding: 10px 20px;
+            background-color: #aaa;
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+        }
+        .main-nav{
+            position: absolute;
+            width: 100%;
+            background-color: #fa0;
+            left: 0;
+            top: 100%;
+            display: none;
+        }
+        #menu-control{
+            /* display: none; */
+            position: absolute;
+            z-index: 10;
+        }
+        #menu-control:checked ~ .main-header .main-nav{
+            display: block;
+        }
+        .main-nav a{
+            display: block;
+            padding: 10px 20px;
+        }
+        .logo img{
+            vertical-align: top;
+        }
+        .hb{
+            width: 40px;
+            height: 40px;
+            background-color: #f00;
+        }
+
+
+        @media screen and (min-width: 768px) {
+            .main-nav{
+                position: relative;
+                width: auto;
+                background-color: transparent;
+                left: auto;
+                top: auto;
+                display: block;
+            }
+            #menu-control{
+                /* display: none; */
+                position: absolute;
+                z-index: 10;
+            }
+            .main-nav a{
+                display: inline-block;
+                padding: 10px 20px;
+            }
+            .hb{
+                display: none;
+            } 
+        }
+    </style>
+</head>
+<body>
+
+
+<input type="checkbox" name="" id="menu-control">
+
+<div class="main-header">
+
+    <div class="logo">
+        <img src="https://fakeimg.pl/80x40/200">
+    </div>
+    
+    <label for="menu-control" class="hb"></label>
+    <nav class="main-nav">
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+    </nav>
+    
+</div>
+
+
+
+    
+</body>
+</html>

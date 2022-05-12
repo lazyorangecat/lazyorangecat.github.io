@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        section{
+            width: 960px;
+            border: 2px solid red;
+            margin: auto;
+        }
+        .main-title{
+            width: 320px;
+            background-color: #f00;
+            color: #fff;
+            position: relative;
+        }
+        .main-title h2{
+            font-size: 40px;
+        }
+        .main-title .main-title-txt{
+            background-color: #000;
+            padding: 10px;
+            position: absolute;
+        }
+        .main-pic{
+            width: 680px;
+            /* border:2px solid #f00; */
+            display: flex;
+            align-items: center;
+            margin-left: 160px;
+        }
+        .main-pic .cover{
+            width: 660px;
+            margin-right: -50px;
+        }
+        .btn{
+            width: 70px;
+        }
+        .cover img,
+        .btn img{
+            width: 100%;
+            vertical-align: middle;
+        }
+        .main-txt{
+            width: 640px;
+            padding: 10px;
+            box-sizing: border-box;
+            background-color: #ddd;
+            margin-top: -2em;
+            position: relative;
+            z-index: 2;
+            margin-left: 40px;
+        }
+        .main-txt .slg{
+            display: flex;
+            align-items: center;
+        }
+        .main-txt .slg:after{
+            content: '';
+            display: block;
+            width: 20px;
+            height: 4px;
+            margin-left: 1em;
+            background-color: #f00;
+            flex-grow: 1;
+        }
+        .main-txt h3{
+            background-color: #000;
+            color: #fff;
+            width: fit-content;
+            padding: 3px 10px;
+        }
+        .main-txt p{
+            /* background-color: #0f0; */
+            padding-left: 2em;
+            position: relative;
+        }
+        .main-txt p:after{
+            content: '';
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background-color: #f00;
+            border-radius: 50%;
+            left: 1em;
+            top: 0.6em;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="list">
+        <section>
+            <!-- A -->
+            <div class="main-title">
+                <h2>
+                    <span>01</span>
+                    駕駛樂趣
+                </h2>
+                <div class="main-title-txt">
+                    <h3>駕駛體驗</h3>
+                    <p>花園歡迎光臨幾年笑話開發商給我排名，全市綠色很有過程女友因此懷疑改變模擬，很好沒事種類不能下載見面大學生兩次，某些體育，影片流行工業在於改。</p>
+                </div>    
+            </div>
+            <!-- B -->
+            <div class="main-pic">
+                <div class="cover">
+                    <img src="https://picsum.photos/300/200?random=22">
+                </div>
+                <div class="btn">
+                    <img src="https://fakeimg.pl/70x40/E00">
+                </div>
+            </div>
+            <!-- C -->
+            <div class="main-txt">
+                <div class="slg">因為我們做了這些超級多的強大的革新</div>
+                <h3>低重心設計</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam delsum repellat error suscipit enim!</p>
+                <h3>低重心設計</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam delsum repellat error suscipit enim!</p>
+                <h3>低重心設計</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam delsum repellat error suscipit enim!</p>
+                
+            </div>
+        </section>
+    </div>
+
+
+
+
+</body>
+</html>

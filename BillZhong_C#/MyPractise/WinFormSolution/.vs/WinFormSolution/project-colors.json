@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a1f95da2-5e17-4e34-90e4-d1f102d3b67d": {
+      "ProjectGuid": "a1f95da2-5e17-4e34-90e4-d1f102d3b67d",
+      "DisplayName": "MyFirstWinForm",
+      "ColorIndex": 0
+    },
+    "bb722ac3-24e0-4211-8f2d-31313aa0e7f6": {
+      "ProjectGuid": "bb722ac3-24e0-4211-8f2d-31313aa0e7f6",
+      "DisplayName": "SimpleCalculator01",
+      "ColorIndex": 1
+    },
+    "602228af-82ee-483d-bb0d-6c87407e52b9": {
+      "ProjectGuid": "602228af-82ee-483d-bb0d-6c87407e52b9",
+      "DisplayName": "SimpleCalculator03",
+      "ColorIndex": 2
+    },
+    "c75b785e-f7dc-4a88-99a6-613309a44efe": {
+      "ProjectGuid": "c75b785e-f7dc-4a88-99a6-613309a44efe",
+      "DisplayName": "TA1",
+      "ColorIndex": 3
+    },
+    "8ca9ea1b-84c5-48dd-915d-4d0b9d7638fc": {
+      "ProjectGuid": "8ca9ea1b-84c5-48dd-915d-4d0b9d7638fc",
+      "DisplayName": "TA_Initialaze",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}

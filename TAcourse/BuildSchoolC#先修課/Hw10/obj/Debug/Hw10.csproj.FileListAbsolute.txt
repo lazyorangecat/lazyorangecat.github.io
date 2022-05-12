@@ -1,0 +1,8 @@
+C:\Users\User\Desktop\BuildSchool\BuildSchoolLab\Hw10\bin\Debug\Hw10.exe.config
+C:\Users\User\Desktop\BuildSchool\BuildSchoolLab\Hw10\bin\Debug\Hw10.exe
+C:\Users\User\Desktop\BuildSchool\BuildSchoolLab\Hw10\bin\Debug\Hw10.pdb
+C:\Users\User\Desktop\BuildSchool\BuildSchoolLab\Hw10\obj\Debug\Hw10.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\BuildSchool\BuildSchoolLab\Hw10\obj\Debug\Hw10.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\BuildSchool\BuildSchoolLab\Hw10\obj\Debug\Hw10.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\BuildSchool\BuildSchoolLab\Hw10\obj\Debug\Hw10.exe
+C:\Users\User\Desktop\BuildSchool\BuildSchoolLab\Hw10\obj\Debug\Hw10.pdb

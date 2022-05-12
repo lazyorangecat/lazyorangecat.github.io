@@ -1,0 +1,8 @@
+C:\Users\User\Desktop\BuildSchool\BuildSchoolLab\Lab1_ValueAndType\bin\Debug\Lab1_ValueAndType.exe.config
+C:\Users\User\Desktop\BuildSchool\BuildSchoolLab\Lab1_ValueAndType\bin\Debug\Lab1_ValueAndType.exe
+C:\Users\User\Desktop\BuildSchool\BuildSchoolLab\Lab1_ValueAndType\bin\Debug\Lab1_ValueAndType.pdb
+C:\Users\User\Desktop\BuildSchool\BuildSchoolLab\Lab1_ValueAndType\obj\Debug\Lab1_ValueAndType.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\BuildSchool\BuildSchoolLab\Lab1_ValueAndType\obj\Debug\Lab1_ValueAndType.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\BuildSchool\BuildSchoolLab\Lab1_ValueAndType\obj\Debug\Lab1_ValueAndType.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\BuildSchool\BuildSchoolLab\Lab1_ValueAndType\obj\Debug\Lab1_ValueAndType.exe
+C:\Users\User\Desktop\BuildSchool\BuildSchoolLab\Lab1_ValueAndType\obj\Debug\Lab1_ValueAndType.pdb

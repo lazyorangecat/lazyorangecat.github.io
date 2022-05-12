@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <script>
+        let Titles=['國家','確診','死亡','治療']
+        
+        let Taiwan=['台灣',41,1,12];
+        let China=['中國',80134,2914,44595];
+        let America=['美國',9665,146,694];
+        let Global=[Taiwan,China,America];
+
+        let container;
+        let table,thead,tbody;
+
+        function SimpleThead(){
+            Titles.forEach((title,index))
+        }
+        
+        table=document.createElement('table');
+        thead=document.createElement('thead');
+        tbody=document.createElement('tbody');
+         //1.建立Thead
+            //(1)建立tr
+            //(2)建立th,設定資料,th加入tr
+            //(3)將tr加入thead
+            //(4)將Thead加入Table
+
+        //(1)
+        let theadTR=document.createElement("tr");
+        //(2)
+        let th1=document.createElement("th");
+        th1.innerHTML=Titles[0];
+        let th1=document.createElement("th");
+        th2.innerHTML=Titles[1];
+        let th1=document.createElement("th");
+        th3.innerHTML=Titles[2];
+        let th1=document.createElement("th");
+        th4.innerHTML=Titles[3];
+        //(3)
+        theadTR.append(th1,th2,th3.th4);
+        //(4)
+        thead.append(theadTR);
+        table.append(thead)
+
+        container.append(table);
+
+        function SimpleTbody(){
+            //1.建立Tbody
+            //(1)建立tr
+            //(2)建立td,設定資料,td加入tr
+            //(3)將tr加入thead
+            //(4)將Tbody加入Table
+        }
+    </script>
+</body>
+
+</html>

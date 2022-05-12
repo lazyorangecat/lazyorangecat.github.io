@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>XHR</h1>
+
+    <button id="button1">Request JSON1</button>
+    <button id="btnIteration">Iteration Data</button>
+    <button id="button2">Request JSON2</button>
+    <div id="msg"></div>
+
+    <script>
+
+
+        const url = "https://raw.githubusercontent.com/lazyorangecat/lazyorangecat.github.io/main/Java/Learning/Apple/ipadair.json";
+        //teams有檔案傳到github
+
+        let btn1, btn2,btnIteration, msg;
+        let ipadArray;
+
+        window.onload = function () {
+            btn1 = document.getElementById("button1");
+            btn1.addEventListener("click", requestJSON1);
+
+            btnIteration = document.getElementById("btnIteration");
+            btnIteration.addEventListener("click", IterationData);
+
+            btn2 = document.getElementById("button2");
+            btn2.addEventListener("click", requestJSON2);
+
+            msg = document.getElementById("msg");
+        }
+        let xhr = new XMLHttpRequest();
+
+        function requestJSON1(){
+            xhr.onload=function(){
+                msg.innerText=this.responseText;
+                
+                console.log(this);
+                console.log(xhr);
+            }
+            xhr.open("GET",url);
+            xhr.send();
+        }
+        
+        function requestJSON2(){
+            xhr.onload=function(){
+                ipadArray=this.response;
+                //msg.innerText=this.responseText;
+                console.log(this);
+                console.log(xhr);
+                
+            }
+            xhr.open("GET",url);
+            xhr.responseType="json";
+            xhr.send();
+        }
+        function IterationData(){
+            xhr.onload=function(){
+                if(xhr.readyState===4 &&xhr.status===200)
+                {
+                    ipadArray=JSON.parse(this.responseText);
+
+                    ipadArray.forEach((ipad,index) => {
+                        msg.append(JSON.stringify(ipad),document.createElement("br"));
+                    });
+                }
+                else{
+                    msg.innerText="發生錯誤,HTTP Response代碼:"+xhr.status;
+                }
+            }
+            xhr.open("GET",url);
+            
+            xhr.send();
+
+        }
+
+    </script>
+</body>
+
+</html>

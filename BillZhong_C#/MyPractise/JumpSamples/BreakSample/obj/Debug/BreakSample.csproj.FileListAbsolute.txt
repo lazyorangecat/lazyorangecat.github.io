@@ -1,0 +1,8 @@
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\JumpSamples\BreakSample\obj\Debug\BreakSample.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\JumpSamples\BreakSample\obj\Debug\BreakSample.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\JumpSamples\BreakSample\obj\Debug\BreakSample.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\JumpSamples\BreakSample\bin\Debug\BreakSample.exe.config
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\JumpSamples\BreakSample\bin\Debug\BreakSample.exe
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\JumpSamples\BreakSample\bin\Debug\BreakSample.pdb
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\JumpSamples\BreakSample\obj\Debug\BreakSample.exe
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\JumpSamples\BreakSample\obj\Debug\BreakSample.pdb

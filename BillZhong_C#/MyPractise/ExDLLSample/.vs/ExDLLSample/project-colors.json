@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c13dd989-50ba-4919-9c4c-c85e396eafda": {
+      "ProjectGuid": "c13dd989-50ba-4919-9c4c-c85e396eafda",
+      "DisplayName": "ExDLLSample",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

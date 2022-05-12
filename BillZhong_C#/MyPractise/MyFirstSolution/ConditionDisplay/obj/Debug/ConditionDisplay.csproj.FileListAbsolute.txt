@@ -1,0 +1,8 @@
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\MyFirstSolution\ConditionDisplay\bin\Debug\ConditionDisplay.exe.config
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\MyFirstSolution\ConditionDisplay\bin\Debug\ConditionDisplay.exe
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\MyFirstSolution\ConditionDisplay\bin\Debug\ConditionDisplay.pdb
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\MyFirstSolution\ConditionDisplay\obj\Debug\ConditionDisplay.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\MyFirstSolution\ConditionDisplay\obj\Debug\ConditionDisplay.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\MyFirstSolution\ConditionDisplay\obj\Debug\ConditionDisplay.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\MyFirstSolution\ConditionDisplay\obj\Debug\ConditionDisplay.exe
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\MyFirstSolution\ConditionDisplay\obj\Debug\ConditionDisplay.pdb

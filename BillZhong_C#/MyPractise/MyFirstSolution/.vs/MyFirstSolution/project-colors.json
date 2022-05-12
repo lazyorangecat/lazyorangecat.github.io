@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4b01993f-285a-414b-960b-5ca48e0a4364": {
+      "ProjectGuid": "4b01993f-285a-414b-960b-5ca48e0a4364",
+      "DisplayName": "MyFirstApp",
+      "ColorIndex": 0
+    },
+    "5b4e74dc-7705-4293-b8f4-5ba04120b760": {
+      "ProjectGuid": "5b4e74dc-7705-4293-b8f4-5ba04120b760",
+      "DisplayName": "ReadThenDisplay",
+      "ColorIndex": 1
+    },
+    "5ed2e3ba-2976-4253-b23a-23a2b1d6649c": {
+      "ProjectGuid": "5ed2e3ba-2976-4253-b23a-23a2b1d6649c",
+      "DisplayName": "ConditionDisplay",
+      "ColorIndex": 2
+    },
+    "865e7152-5160-4ebd-ba71-fe5d5574dec9": {
+      "ProjectGuid": "865e7152-5160-4ebd-ba71-fe5d5574dec9",
+      "DisplayName": "SwitchDisplay",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

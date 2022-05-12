@@ -1,0 +1,51 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e905a6f7-75a2-4f3c-a59e-587fc44ad257": {
+      "ProjectGuid": "e905a6f7-75a2-4f3c-a59e-587fc44ad257",
+      "DisplayName": "LinqSample001",
+      "ColorIndex": 0
+    },
+    "55a2c507-f9d7-4829-b05c-6d97ca820583": {
+      "ProjectGuid": "55a2c507-f9d7-4829-b05c-6d97ca820583",
+      "DisplayName": "LinqSample002",
+      "ColorIndex": 1
+    },
+    "76820a2e-b65b-4257-adfc-7d0fe8da3c04": {
+      "ProjectGuid": "76820a2e-b65b-4257-adfc-7d0fe8da3c04",
+      "DisplayName": "LinqSample003",
+      "ColorIndex": 2
+    },
+    "ce1b5a2c-b5d2-4132-b707-2298001550fa": {
+      "ProjectGuid": "ce1b5a2c-b5d2-4132-b707-2298001550fa",
+      "DisplayName": "LinqSample004",
+      "ColorIndex": 3
+    },
+    "a86e656e-dd4b-406b-b68d-08732b46ea30": {
+      "ProjectGuid": "a86e656e-dd4b-406b-b68d-08732b46ea30",
+      "DisplayName": "LinqSample005",
+      "ColorIndex": 4
+    },
+    "e30228d9-99db-408d-bc97-6a924157b855": {
+      "ProjectGuid": "e30228d9-99db-408d-bc97-6a924157b855",
+      "DisplayName": "LinqSample006",
+      "ColorIndex": 5
+    },
+    "0b6cdb79-fbc3-4710-9a56-ee2f8c31ecb3": {
+      "ProjectGuid": "0b6cdb79-fbc3-4710-9a56-ee2f8c31ecb3",
+      "DisplayName": "LinqSample007",
+      "ColorIndex": 6
+    },
+    "9524a101-6444-4a65-b9d9-ffac8e3ba676": {
+      "ProjectGuid": "9524a101-6444-4a65-b9d9-ffac8e3ba676",
+      "DisplayName": "LinqSample008",
+      "ColorIndex": 7
+    },
+    "187571fa-aebd-48aa-915b-caf894744a4d": {
+      "ProjectGuid": "187571fa-aebd-48aa-915b-caf894744a4d",
+      "DisplayName": "LinqSample009",
+      "ColorIndex": 8
+    }
+  },
+  "NextColorIndex": 9
+}

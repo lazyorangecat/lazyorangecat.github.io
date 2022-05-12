@@ -1,0 +1,54 @@
+.keyart-container {
+  width: 600px;
+  height: 300px;
+}
+
+.keyart-container .keyart-layer {
+  width: 600px;
+  height: 300px;
+  background-size: auto 300px;
+  background-position: bottom center;
+  position: fixed;
+}
+
+.keyart-container #parallax-0 {
+  background-image: url(./material/parallax0.png);
+}
+
+.keyart-container #parallax-1 {
+  background-image: url(./material/parallax1.png);
+}
+
+.keyart-container #parallax-2 {
+  background-image: url(./material/parallax2.png);
+}
+
+.keyart-container #parallax-3 {
+  background-image: url(./material/parallax3.png);
+}
+
+.keyart-container #parallax-4 {
+  background-image: url(./material/parallax4.png);
+}
+
+.keyart-container #parallax-5 {
+  background-image: url(./material/parallax5.png);
+}
+
+.keyart-container #parallax-6 {
+  background-image: url(./material/parallax6.png);
+}
+
+.keyart-container #parallax-7 {
+  background-image: url(./material/parallax7.png);
+}
+
+.keyart-container #parallax-8 {
+  background-image: url(./material/parallax8.png);
+}
+
+.after {
+  height: 4444px;
+  background-color: pink;
+}
+/*# sourceMappingURL=ParallaxLab.css.map */

@@ -1,0 +1,11 @@
+C:\Users\User\OneDrive\桌面\BuildSchool\BuildBillCSharp\MyPractise\HomeWork\1\Hw6\obj\Debug\Hw6.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\桌面\BuildSchool\BuildBillCSharp\MyPractise\HomeWork\1\Hw6\obj\Debug\Hw6.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\OneDrive\桌面\BuildSchool\BuildBillCSharp\MyPractise\HomeWork\1\Hw6\obj\Debug\Hw6.Form1.resources
+C:\Users\User\OneDrive\桌面\BuildSchool\BuildBillCSharp\MyPractise\HomeWork\1\Hw6\obj\Debug\Hw6.Properties.Resources.resources
+C:\Users\User\OneDrive\桌面\BuildSchool\BuildBillCSharp\MyPractise\HomeWork\1\Hw6\obj\Debug\Hw6.csproj.GenerateResource.cache
+C:\Users\User\OneDrive\桌面\BuildSchool\BuildBillCSharp\MyPractise\HomeWork\1\Hw6\obj\Debug\Hw6.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\桌面\BuildSchool\BuildBillCSharp\MyPractise\HomeWork\1\Hw6\bin\Debug\Hw6.exe.config
+C:\Users\User\OneDrive\桌面\BuildSchool\BuildBillCSharp\MyPractise\HomeWork\1\Hw6\bin\Debug\Hw6.exe
+C:\Users\User\OneDrive\桌面\BuildSchool\BuildBillCSharp\MyPractise\HomeWork\1\Hw6\bin\Debug\Hw6.pdb
+C:\Users\User\OneDrive\桌面\BuildSchool\BuildBillCSharp\MyPractise\HomeWork\1\Hw6\obj\Debug\Hw6.exe
+C:\Users\User\OneDrive\桌面\BuildSchool\BuildBillCSharp\MyPractise\HomeWork\1\Hw6\obj\Debug\Hw6.pdb

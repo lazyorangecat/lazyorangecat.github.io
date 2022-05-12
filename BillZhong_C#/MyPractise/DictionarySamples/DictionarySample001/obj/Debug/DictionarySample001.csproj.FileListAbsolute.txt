@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\DictionarySamples\DictionarySample001\bin\Debug\DictionarySample001.exe.config
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\DictionarySamples\DictionarySample001\bin\Debug\DictionarySample001.exe
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\DictionarySamples\DictionarySample001\bin\Debug\DictionarySample001.pdb
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\DictionarySamples\DictionarySample001\obj\Debug\DictionarySample001.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\DictionarySamples\DictionarySample001\obj\Debug\DictionarySample001.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\DictionarySamples\DictionarySample001\obj\Debug\DictionarySample001.Form1.resources
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\DictionarySamples\DictionarySample001\obj\Debug\DictionarySample001.Properties.Resources.resources
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\DictionarySamples\DictionarySample001\obj\Debug\DictionarySample001.csproj.GenerateResource.cache
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\DictionarySamples\DictionarySample001\obj\Debug\DictionarySample001.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\DictionarySamples\DictionarySample001\obj\Debug\DictionarySample001.exe
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\DictionarySamples\DictionarySample001\obj\Debug\DictionarySample001.pdb

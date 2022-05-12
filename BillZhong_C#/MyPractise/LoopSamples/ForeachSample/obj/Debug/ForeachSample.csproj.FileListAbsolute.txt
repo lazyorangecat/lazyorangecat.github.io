@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\LoopSamples\ForeachSample\bin\Debug\ForeachSample.exe.config
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\LoopSamples\ForeachSample\bin\Debug\ForeachSample.exe
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\LoopSamples\ForeachSample\bin\Debug\ForeachSample.pdb
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\LoopSamples\ForeachSample\obj\Debug\ForeachSample.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\LoopSamples\ForeachSample\obj\Debug\ForeachSample.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\LoopSamples\ForeachSample\obj\Debug\ForeachSample.exe
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\LoopSamples\ForeachSample\obj\Debug\ForeachSample.pdb

@@ -1,0 +1,32 @@
+$keyart-weight:600px;
+$keyart-height:300px;
+.keyart-container{
+    width: $keyart-weight;
+
+    height:$keyart-height;
+
+    .keyart-layer{
+        width: $keyart-weight;
+        height: $keyart-height;
+        background-size: auto $keyart-height;
+        background-position: bottom center;
+        position: fixed;
+    }
+
+
+
+    #parallax-0{ background-image: url(./material/parallax0.png) }
+    #parallax-1{ background-image: url(./material/parallax1.png) }
+    #parallax-2{ background-image: url(./material/parallax2.png) }
+    #parallax-3{ background-image: url(./material/parallax3.png) }
+    #parallax-4{ background-image: url(./material/parallax4.png) }
+    #parallax-5{ background-image: url(./material/parallax5.png) }
+    #parallax-6{ background-image: url(./material/parallax6.png) }
+    #parallax-7{ background-image: url(./material/parallax7.png) }
+    #parallax-8{ background-image: url(./material/parallax8.png) }
+}
+.after
+{
+    height: 4444px;
+    background-color: pink;
+}

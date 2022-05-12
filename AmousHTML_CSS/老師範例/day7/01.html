@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #r1:checked ~ .c1,
+        #r2:checked ~ .c2,
+        #r3:checked ~ .c3{ display: block; }
+
+        #r1:checked ~ .label-list label:nth-child(1),
+        #r2:checked ~ .label-list label:nth-child(2),
+        #r3:checked ~ .label-list label:nth-child(3){
+            background-color: #f00;
+        }
+
+        .content{
+            border: 1px solid red;
+            padding: 50px;
+            font-size: 100px;
+            display: none;
+        }
+        .label-list{
+            display: flex;
+        }
+        .label-list label{
+            width: 20px;
+            height: 20px;
+            background-color: #aaa;
+            margin: 4px;
+        }
+    </style>
+</head>
+<body>
+    
+    <input type="radio" name="ccc" class="rrr" id="r1" checked>
+    <input type="radio" name="ccc" class="rrr" id="r2">
+    <input type="radio" name="ccc" class="rrr" id="r3">
+
+
+    <div class="content c1">c1</div>
+    <div class="content c2">c2</div>
+    <div class="content c3">c3</div>
+
+    <div class="label-list">
+        <label for="r1"></label>
+        <label for="r2"></label>
+        <label for="r3"></label>
+    </div>
+
+
+
+</body>
+</html>

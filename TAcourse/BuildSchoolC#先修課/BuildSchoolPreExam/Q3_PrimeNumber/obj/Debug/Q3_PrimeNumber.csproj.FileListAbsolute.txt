@@ -1,0 +1,8 @@
+C:\Users\User\Desktop\BuildSchoolPreExam\Q3_PrimeNumber\obj\Debug\Q3_PrimeNumber.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\BuildSchoolPreExam\Q3_PrimeNumber\obj\Debug\Q3_PrimeNumber.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\BuildSchoolPreExam\Q3_PrimeNumber\obj\Debug\Q3_PrimeNumber.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\BuildSchoolPreExam\Q3_PrimeNumber\bin\Debug\Q3_PrimeNumber.exe.config
+C:\Users\User\Desktop\BuildSchoolPreExam\Q3_PrimeNumber\bin\Debug\Q3_PrimeNumber.exe
+C:\Users\User\Desktop\BuildSchoolPreExam\Q3_PrimeNumber\bin\Debug\Q3_PrimeNumber.pdb
+C:\Users\User\Desktop\BuildSchoolPreExam\Q3_PrimeNumber\obj\Debug\Q3_PrimeNumber.exe
+C:\Users\User\Desktop\BuildSchoolPreExam\Q3_PrimeNumber\obj\Debug\Q3_PrimeNumber.pdb

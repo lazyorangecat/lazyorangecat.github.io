@@ -1,0 +1,8 @@
+C:\Users\User\OneDrive\桌面\BuildSchool\BuildSchool\BuildBillCSharp\LinqSamples\LinqSample007\bin\Debug\LinqSample007.exe.config
+C:\Users\User\OneDrive\桌面\BuildSchool\BuildSchool\BuildBillCSharp\LinqSamples\LinqSample007\bin\Debug\LinqSample007.exe
+C:\Users\User\OneDrive\桌面\BuildSchool\BuildSchool\BuildBillCSharp\LinqSamples\LinqSample007\bin\Debug\LinqSample007.pdb
+C:\Users\User\OneDrive\桌面\BuildSchool\BuildSchool\BuildBillCSharp\LinqSamples\LinqSample007\obj\Debug\LinqSample007.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\桌面\BuildSchool\BuildSchool\BuildBillCSharp\LinqSamples\LinqSample007\obj\Debug\LinqSample007.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\OneDrive\桌面\BuildSchool\BuildSchool\BuildBillCSharp\LinqSamples\LinqSample007\obj\Debug\LinqSample007.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\桌面\BuildSchool\BuildSchool\BuildBillCSharp\LinqSamples\LinqSample007\obj\Debug\LinqSample007.exe
+C:\Users\User\OneDrive\桌面\BuildSchool\BuildSchool\BuildBillCSharp\LinqSamples\LinqSample007\obj\Debug\LinqSample007.pdb

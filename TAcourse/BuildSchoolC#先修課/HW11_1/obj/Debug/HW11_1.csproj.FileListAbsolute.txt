@@ -1,0 +1,16 @@
+C:\Users\User\Desktop\BuildSchool\BuildSchoolLab\HW11_1\bin\Debug\HW11_1.exe.config
+C:\Users\User\Desktop\BuildSchool\BuildSchoolLab\HW11_1\bin\Debug\HW11_1.exe
+C:\Users\User\Desktop\BuildSchool\BuildSchoolLab\HW11_1\bin\Debug\HW11_1.pdb
+C:\Users\User\Desktop\BuildSchool\BuildSchoolLab\HW11_1\obj\Debug\HW11_1.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\BuildSchool\BuildSchoolLab\HW11_1\obj\Debug\HW11_1.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\BuildSchool\BuildSchoolLab\HW11_1\obj\Debug\HW11_1.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\BuildSchool\BuildSchoolLab\HW11_1\obj\Debug\HW11_1.exe
+C:\Users\User\Desktop\BuildSchool\BuildSchoolLab\HW11_1\obj\Debug\HW11_1.pdb
+C:\Users\User\OneDrive\桌面\BuildSchool\BuildSchoolLab\HW11_1\bin\Debug\HW11_1.exe.config
+C:\Users\User\OneDrive\桌面\BuildSchool\BuildSchoolLab\HW11_1\bin\Debug\HW11_1.exe
+C:\Users\User\OneDrive\桌面\BuildSchool\BuildSchoolLab\HW11_1\bin\Debug\HW11_1.pdb
+C:\Users\User\OneDrive\桌面\BuildSchool\BuildSchoolLab\HW11_1\obj\Debug\Hw11_1.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\桌面\BuildSchool\BuildSchoolLab\HW11_1\obj\Debug\Hw11_1.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\OneDrive\桌面\BuildSchool\BuildSchoolLab\HW11_1\obj\Debug\Hw11_1.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\桌面\BuildSchool\BuildSchoolLab\HW11_1\obj\Debug\HW11_1.exe
+C:\Users\User\OneDrive\桌面\BuildSchool\BuildSchoolLab\HW11_1\obj\Debug\HW11_1.pdb

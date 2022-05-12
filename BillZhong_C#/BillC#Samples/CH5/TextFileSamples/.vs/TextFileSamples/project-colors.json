@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f15c4c65-01d3-4b77-a484-43c9cc492d17": {
+      "ProjectGuid": "f15c4c65-01d3-4b77-a484-43c9cc492d17",
+      "DisplayName": "TextFileSample001",
+      "ColorIndex": 0
+    },
+    "ef602b9f-a994-44ec-ac17-e443349ee9d8": {
+      "ProjectGuid": "ef602b9f-a994-44ec-ac17-e443349ee9d8",
+      "DisplayName": "TextFileSample003",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

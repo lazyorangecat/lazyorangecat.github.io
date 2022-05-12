@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\ListSamples\ListSample004\obj\Debug\ListSample005.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\ListSamples\ListSample004\obj\Debug\ListSample005.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\ListSamples\ListSample004\obj\Debug\ListSample004.Form1.resources
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\ListSamples\ListSample004\obj\Debug\ListSample004.Properties.Resources.resources
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\ListSamples\ListSample004\obj\Debug\ListSample005.csproj.GenerateResource.cache
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\ListSamples\ListSample004\obj\Debug\ListSample005.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\ListSamples\ListSample004\bin\Debug\ListSample004.exe.config
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\ListSamples\ListSample004\bin\Debug\ListSample004.exe
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\ListSamples\ListSample004\bin\Debug\ListSample004.pdb
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\ListSamples\ListSample004\obj\Debug\ListSample004.exe
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\ListSamples\ListSample004\obj\Debug\ListSample004.pdb

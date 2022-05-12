@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    
+<body>
+    <h1>LOL - Champion.json Key & Value</h1>
+    <div id="container"></div>
+    <script>
+        var champion={
+
+        }
+        
+        let container,champions,heros;
+        window.onload=function(){
+            container=document.getElementById("container")
+
+            champions=champion.data
+
+            heros = Object.keys(champion.data);
+
+            console.log(heros);
+            
+            heros.forEach((heroname,index)=>{
+                let hero=champion.data[heroname]
+                let id=hero.id;
+                let name = hero.name;
+                let title=hero.title;
+                let attack=hero.info.attack
+
+                console(`${id},${name},${title},${attack}`);
+
+                let p = document.createElement("p");
+                p.innerHTML=`${id},${name},${title},${attack}<br/>`
+            })
+        }
+    </script>
+</body>
+</html>

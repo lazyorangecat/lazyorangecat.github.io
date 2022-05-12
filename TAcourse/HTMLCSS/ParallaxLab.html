@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./ParallaxLab.css">
+</head>
+<body>
+    <div class="pre">上方內容(header/nav)</div>
+    <div class="keyart-container">
+        <div class="keyart-layer">
+            <div class="keyart-layer" id="parallax-0" speed="2"></div>
+            <div class="keyart-layer" id="parallax-1" speed="5"></div>
+            <div class="keyart-layer" id="parallax-2" speed="11"></div>
+            <div class="keyart-layer" id="parallax-3" speed="16"></div>
+            <div class="keyart-layer" id="parallax-4" speed="26"></div>
+            <div class="keyart-layer" id="parallax-5" speed="36"></div>
+            <div class="keyart-layer" id="parallax-6" speed="50"></div>
+            <div class="keyart-layer" id="parallax-7" speed="69"></div>
+            <div class="keyart-layer" id="parallax-8" speed="88"></div>
+        </div>
+    </div>
+    <div class="after"></div>
+    
+    <script>
+        let layers = document.querySelectorAll('.keyart-layer')
+        let speed,yPos;
+
+        window.addEventListener("scroll",function (event){
+            let fromTop=this.pageYOffset;
+            for(let layer of layers){
+                speed=layer.getAttribute('speed');
+                yPos= -(fromTop*speed)*0.01;
+
+                layer.style.transform=`translateY(${yPos}px)`;
+            }
+        });
+
+    </script>
+</body>
+</html>

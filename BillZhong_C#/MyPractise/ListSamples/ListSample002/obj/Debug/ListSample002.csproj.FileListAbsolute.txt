@@ -1,0 +1,10 @@
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\ListSamples\ListSample002\bin\Debug\ListSample002.exe.config
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\ListSamples\ListSample002\bin\Debug\ListSample002.exe
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\ListSamples\ListSample002\bin\Debug\ListSample002.pdb
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\ListSamples\ListSample002\obj\Debug\ListSample002.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\ListSamples\ListSample002\obj\Debug\ListSample002.Form1.resources
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\ListSamples\ListSample002\obj\Debug\ListSample002.Properties.Resources.resources
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\ListSamples\ListSample002\obj\Debug\ListSample002.csproj.GenerateResource.cache
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\ListSamples\ListSample002\obj\Debug\ListSample002.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\ListSamples\ListSample002\obj\Debug\ListSample002.exe
+C:\Users\User\Desktop\BuildSchool\BuildBillCSharp\ListSamples\ListSample002\obj\Debug\ListSample002.pdb

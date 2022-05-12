@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\BuildSchoolPreExam\Q5_NumberTriangle\bin\Debug\Q5_NumberTriangle.exe.config
+C:\Users\User\Desktop\BuildSchoolPreExam\Q5_NumberTriangle\bin\Debug\Q5_NumberTriangle.exe
+C:\Users\User\Desktop\BuildSchoolPreExam\Q5_NumberTriangle\bin\Debug\Q5_NumberTriangle.pdb
+C:\Users\User\Desktop\BuildSchoolPreExam\Q5_NumberTriangle\obj\Debug\Q5_NumberTriangle.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\BuildSchoolPreExam\Q5_NumberTriangle\obj\Debug\Q5_NumberTriangle.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\BuildSchoolPreExam\Q5_NumberTriangle\obj\Debug\Q5_NumberTriangle.exe
+C:\Users\User\Desktop\BuildSchoolPreExam\Q5_NumberTriangle\obj\Debug\Q5_NumberTriangle.pdb
