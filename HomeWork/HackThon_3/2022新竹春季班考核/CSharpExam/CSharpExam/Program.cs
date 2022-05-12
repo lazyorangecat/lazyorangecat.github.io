@@ -28,8 +28,8 @@ namespace CSharpExam
 
             List<Student> studentList = new List<Student>()
             {
-                new Student() { StudentId = "S0001", Name = "小新", Gender = GenderOption.Male, CourseList = new List<string>() { "A001", "A004", "B002", "B003", "B004", "B005" } },
-                new Student() { StudentId = "S0002", Name = "妮妮", Gender = GenderOption.Female, CourseList = new List<string>() { "A002", "A003", "B001", "B002", "B005" } },
+                new Student() { StudentId = "S0001", Name = "小新", Gender = GenderOption.Male, CourseList = new List<string>() { "A001", "A004", "B002", "B003", "B004", "B005" ,} },//"B006"
+                new Student() { StudentId = "S0002", Name = "妮妮", Gender = GenderOption.Female, CourseList = new List<string>() { "A002", "A003", "B001", "B002", "B005" ,  } },//"B005,B006"
                 new Student() { StudentId = "S0003", Name = "風間", Gender = GenderOption.Male, CourseList = new List<string>() { "A001", "A002", "A003", "A004", "A005", "B001", "B002", "B003", "B004", "B005"  } },
                 new Student() { StudentId = "S0004", Name = "阿呆", Gender = GenderOption.Male, CourseList = new List<string>() { "A001", "A002", "A003", "A004", "A005" } },
                 new Student() { StudentId = "S0005", Name = "正男", Gender = GenderOption.Male, CourseList = new List<string>() { "B001", "B002", "B003", "B004", "B005" } },
@@ -50,7 +50,8 @@ namespace CSharpExam
 
             #region 第2題
             // 2. 列出所有在"L107"教室上課的課程ID
-            Console.WriteLine(string.Join(",",
+            Console.WriteLine(
+                string.Join(",",
                 from c in courseList
                 where c.Classroom == "L107"
                 select c.CourseId));
@@ -128,7 +129,8 @@ namespace CSharpExam
                                                                                                     //最初
                      select s.Name)));                                                              //最初
                 
-                var GitCourseID=String.Join(",", courseList.Where(c => c.Name == "Git").Select(ID => ID.CourseId));//兩個Git課程的ID
+                var GitCourseID=String.Join(",", courseList.Where(c => c.Name == "Git").Select(c => c.CourseId));//兩個Git課程的ID
+                Console.WriteLine(GitCourseID); //c
                 var learnGitStudents = String.Join(",", studentList.Where(s => s.CourseList.Contains(GitCourseID)).Select(student => student.Name));/*選Git課程的學生*/
 
 
@@ -160,8 +162,7 @@ namespace CSharpExam
                 //var result8=
                 //studentList.Select(s => $"{s.Name}:{courseList.Where(c=>s.CourseList.Contains(c.CourseId)).Select(c=>c.Name)}");
                 var result8 =
-                studentList.Select(s => 
-                $"{s.Name}:\n\t{string.Join($"\n\t",courseList.Where(c => s.CourseList.Contains(c.CourseId)).Select(c => c.Name))}");
+                studentList.Select(s =>$"{s.Name}:\n\t{string.Join($"\n\t",courseList.Where(c => s.CourseList.Contains(c.CourseId)).Select(c => c.Name))}");
       
                 Console.WriteLine(String.Join(Environment.NewLine, result8));
                 
@@ -211,8 +212,7 @@ namespace CSharpExam
                 //studentList.Select(s => $"{s.Name}:{courseList.GroupBy().Where(c=>s.CourseList.Contains(c.CourseId))}");
                 
                 var result10 = studentList.Where
-                    (s=>courseList.Where
-                    (c =>s.CourseList.Contains(c.CourseId)).Sum(d => d.Credit) < 10)
+                    (s=>courseList.Where(c =>s.CourseList.Contains(c.CourseId)).Sum(d => d.Credit) < 10)
                     .Select(s => s.Name);
                 
                 Console.WriteLine(String.Join(Environment.NewLine, result10));
@@ -221,7 +221,7 @@ namespace CSharpExam
 
                 #endregion
 
-                #region 第11題
+            #region 第11題
                 // 11. 找出誰最後獲得學分數最高
                 Console.WriteLine("11. 找出誰最後獲得學分數最高");
                 {
@@ -240,7 +240,7 @@ namespace CSharpExam
 
                 #endregion
 
-                #region 第12題(加分題)
+            #region 第12題(加分題)
                 // 12. 十二生肖自定義排序
                 Console.WriteLine("12. 十二生肖自定義排序");
                 {
