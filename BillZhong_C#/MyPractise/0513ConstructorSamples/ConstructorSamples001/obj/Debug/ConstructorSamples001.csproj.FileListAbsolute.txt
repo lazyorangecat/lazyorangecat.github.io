@@ -1,0 +1,8 @@
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\BillZhong_C#\MyPractise\0513ConstructorSamples\ConstructorSamples001\bin\Debug\ConstructorSamples001.exe.config
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\BillZhong_C#\MyPractise\0513ConstructorSamples\ConstructorSamples001\bin\Debug\ConstructorSamples001.exe
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\BillZhong_C#\MyPractise\0513ConstructorSamples\ConstructorSamples001\bin\Debug\ConstructorSamples001.pdb
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\BillZhong_C#\MyPractise\0513ConstructorSamples\ConstructorSamples001\obj\Debug\ConstructorSamples001.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\BillZhong_C#\MyPractise\0513ConstructorSamples\ConstructorSamples001\obj\Debug\ConstructorSamples001.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\BillZhong_C#\MyPractise\0513ConstructorSamples\ConstructorSamples001\obj\Debug\ConstructorSamples001.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\BillZhong_C#\MyPractise\0513ConstructorSamples\ConstructorSamples001\obj\Debug\ConstructorSamples001.exe
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\BillZhong_C#\MyPractise\0513ConstructorSamples\ConstructorSamples001\obj\Debug\ConstructorSamples001.pdb

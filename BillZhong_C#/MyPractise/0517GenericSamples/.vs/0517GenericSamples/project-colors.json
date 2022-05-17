@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1ccb3d31-8701-48e5-8ca2-73faff4449c5": {
+      "ProjectGuid": "1ccb3d31-8701-48e5-8ca2-73faff4449c5",
+      "DisplayName": "GenericSample001",
+      "ColorIndex": 0
+    },
+    "1ec98d0e-eed0-4bd2-8f78-e4006ae87a5c": {
+      "ProjectGuid": "1ec98d0e-eed0-4bd2-8f78-e4006ae87a5c",
+      "DisplayName": "GenericSample002",
+      "ColorIndex": 1
+    },
+    "14644d11-32f1-4b1b-97e8-fd381c232e09": {
+      "ProjectGuid": "14644d11-32f1-4b1b-97e8-fd381c232e09",
+      "DisplayName": "12 Animal Zodiac",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "其他檔案",
+      "ColorIndex": -1
+    },
+    "e6ca18da-02f1-4501-9949-0091d0a531ae": {
+      "ProjectGuid": "e6ca18da-02f1-4501-9949-0091d0a531ae",
+      "DisplayName": "number orderby",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

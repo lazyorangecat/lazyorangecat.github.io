@@ -1,9 +1,0 @@
-C:\CUST_Samples\6\StructureSamples\StructureSample001\bin\Debug\StructureSample001.exe.config
-C:\BuildSchool\中華\Chu2020\Samples\CH6\StructureSamples\StructureSample001\obj\Debug\StructureSample001.csprojAssemblyReference.cache
-C:\BuildSchool\台北\TPE2021_summer\Samples\CH6\StructureSamples\StructureSample001\bin\Debug\StructureSample001.exe.config
-C:\BuildSchool\台北\TPE2021_summer\Samples\CH6\StructureSamples\StructureSample001\bin\Debug\StructureSample001.exe
-C:\BuildSchool\台北\TPE2021_summer\Samples\CH6\StructureSamples\StructureSample001\bin\Debug\StructureSample001.pdb
-C:\BuildSchool\台北\TPE2021_summer\Samples\CH6\StructureSamples\StructureSample001\obj\Debug\StructureSample001.csprojAssemblyReference.cache
-C:\BuildSchool\台北\TPE2021_summer\Samples\CH6\StructureSamples\StructureSample001\obj\Debug\StructureSample001.csproj.CoreCompileInputs.cache
-C:\BuildSchool\台北\TPE2021_summer\Samples\CH6\StructureSamples\StructureSample001\obj\Debug\StructureSample001.exe
-C:\BuildSchool\台北\TPE2021_summer\Samples\CH6\StructureSamples\StructureSample001\obj\Debug\StructureSample001.pdb

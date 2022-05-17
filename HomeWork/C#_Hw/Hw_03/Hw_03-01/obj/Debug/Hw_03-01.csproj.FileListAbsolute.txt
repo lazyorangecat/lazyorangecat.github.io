@@ -1,0 +1,8 @@
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\HomeWork\C#_Hw\Hw_03\Hw_03-01\bin\Debug\Hw_03-01.exe.config
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\HomeWork\C#_Hw\Hw_03\Hw_03-01\bin\Debug\Hw_03-01.exe
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\HomeWork\C#_Hw\Hw_03\Hw_03-01\bin\Debug\Hw_03-01.pdb
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\HomeWork\C#_Hw\Hw_03\Hw_03-01\obj\Debug\Hw_03-01.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\HomeWork\C#_Hw\Hw_03\Hw_03-01\obj\Debug\Hw_03-01.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\HomeWork\C#_Hw\Hw_03\Hw_03-01\obj\Debug\Hw_03-01.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\HomeWork\C#_Hw\Hw_03\Hw_03-01\obj\Debug\Hw_03-01.exe
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\HomeWork\C#_Hw\Hw_03\Hw_03-01\obj\Debug\Hw_03-01.pdb

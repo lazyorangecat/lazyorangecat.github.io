@@ -1,0 +1,8 @@
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\BillZhong_C#\MyPractise\0517GenericSamples\GenericSample002\bin\Debug\GenericSample002.exe.config
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\BillZhong_C#\MyPractise\0517GenericSamples\GenericSample002\bin\Debug\GenericSample002.exe
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\BillZhong_C#\MyPractise\0517GenericSamples\GenericSample002\bin\Debug\GenericSample002.pdb
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\BillZhong_C#\MyPractise\0517GenericSamples\GenericSample002\obj\Debug\GenericSample002.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\BillZhong_C#\MyPractise\0517GenericSamples\GenericSample002\obj\Debug\GenericSample002.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\BillZhong_C#\MyPractise\0517GenericSamples\GenericSample002\obj\Debug\GenericSample002.exe
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\BillZhong_C#\MyPractise\0517GenericSamples\GenericSample002\obj\Debug\GenericSample002.pdb
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\BillZhong_C#\MyPractise\0517GenericSamples\GenericSample002\obj\Debug\GenericSample002.csproj.AssemblyReference.cache

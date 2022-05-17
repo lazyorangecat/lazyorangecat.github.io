@@ -1,0 +1,8 @@
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\BillZhong_C#\MyPractise\0517GenericSamples\12 Animal Zodiac\bin\Debug\12 Animal Zodiac.exe.config
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\BillZhong_C#\MyPractise\0517GenericSamples\12 Animal Zodiac\bin\Debug\12 Animal Zodiac.exe
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\BillZhong_C#\MyPractise\0517GenericSamples\12 Animal Zodiac\bin\Debug\12 Animal Zodiac.pdb
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\BillZhong_C#\MyPractise\0517GenericSamples\12 Animal Zodiac\obj\Debug\12 Animal Zodiac.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\BillZhong_C#\MyPractise\0517GenericSamples\12 Animal Zodiac\obj\Debug\12 Animal Zodiac.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\BillZhong_C#\MyPractise\0517GenericSamples\12 Animal Zodiac\obj\Debug\12 Animal Zodiac.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\BillZhong_C#\MyPractise\0517GenericSamples\12 Animal Zodiac\obj\Debug\12 Animal Zodiac.exe
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\BillZhong_C#\MyPractise\0517GenericSamples\12 Animal Zodiac\obj\Debug\12 Animal Zodiac.pdb

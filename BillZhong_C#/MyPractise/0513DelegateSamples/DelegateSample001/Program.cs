@@ -28,6 +28,8 @@ namespace DelegateSample001
             action2("第二個");
 
             Console.ReadLine();
+            
+
         }
     }
 

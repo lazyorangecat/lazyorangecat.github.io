@@ -1,0 +1,8 @@
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\BillZhong_C#\MyPractise\0517GenericSamples\number orderby\obj\Debug\number orderby.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\BillZhong_C#\MyPractise\0517GenericSamples\number orderby\obj\Debug\number orderby.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\BillZhong_C#\MyPractise\0517GenericSamples\number orderby\obj\Debug\number orderby.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\BillZhong_C#\MyPractise\0517GenericSamples\number orderby\bin\Debug\number orderby.exe.config
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\BillZhong_C#\MyPractise\0517GenericSamples\number orderby\bin\Debug\number orderby.exe
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\BillZhong_C#\MyPractise\0517GenericSamples\number orderby\bin\Debug\number orderby.pdb
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\BillZhong_C#\MyPractise\0517GenericSamples\number orderby\obj\Debug\number orderby.exe
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\BillZhong_C#\MyPractise\0517GenericSamples\number orderby\obj\Debug\number orderby.pdb

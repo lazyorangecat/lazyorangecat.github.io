@@ -244,7 +244,7 @@ namespace CSharpExam
                 // 12. 十二生肖自定義排序
                 Console.WriteLine("12. 十二生肖自定義排序");
                 {
-                    var zoo = new List<string> { "龍", "鼠", "馬", "豬", "羊" }; //答案: 鼠、龍、馬、羊、豬
+                    var zoo = new List<string> { "龍", "鼠", "馬", "豬", "羊","牛","虎","兔","蛇","猴","雞","狗" }; //答案: 鼠、龍、馬、羊、豬
                     Console.WriteLine($"排序前: {string.Join("、", zoo)}{Environment.NewLine}");
                     Console.Write("排序後: ");
                     //作答區
