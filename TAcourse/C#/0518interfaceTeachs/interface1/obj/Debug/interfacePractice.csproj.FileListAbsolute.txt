@@ -1,3 +1,8 @@
 C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\TAcourse\C#\0518interfaceTeachs\interface1\obj\Debug\interfacePractice.csproj.AssemblyReference.cache
 C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\TAcourse\C#\0518interfaceTeachs\interface1\obj\Debug\interfacePractice.csproj.SuggestedBindingRedirects.cache
 C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\TAcourse\C#\0518interfaceTeachs\interface1\obj\Debug\interfacePractice.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\TAcourse\C#\0518interfaceTeachs\interface1\bin\Debug\interface1.exe.config
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\TAcourse\C#\0518interfaceTeachs\interface1\bin\Debug\interface1.exe
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\TAcourse\C#\0518interfaceTeachs\interface1\bin\Debug\interface1.pdb
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\TAcourse\C#\0518interfaceTeachs\interface1\obj\Debug\interface1.exe
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\TAcourse\C#\0518interfaceTeachs\interface1\obj\Debug\interface1.pdb

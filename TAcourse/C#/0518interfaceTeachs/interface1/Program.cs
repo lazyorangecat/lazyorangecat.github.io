@@ -46,50 +46,50 @@ namespace interface1
             flyableList.Add(飛機01);
             foreach(IFlyable 會飛者 in flyableList)
             {
-                會飛者.呼吸();
+                //會飛者.呼吸();
                 會飛者.飛();
-                會飛者.走();
-                會飛者.游();
+                //會飛者.走();
+                //會飛者.游();
 
             }
 
             Console.WriteLine("...會走的...");
             waikableList.Add(飛馬01);
-            swinableList.Add(水獺01);
-            swinableList.Add(水鳥01);
-            swinableList.Add(機器人01);
-
+            waikableList.Add(水獺01);
             waikableList.Add(水鳥01);
+            waikableList.Add(機器人01);
             foreach (IWaikable 會走者 in waikableList)
             {
-                會走者.呼吸();
-                會走者.飛();
+                //會走者.呼吸();
+                //會走者.飛();
                 會走者.走();
-                會走者.游();
+                //會走者.游();
 
             }
-
 
             Console.WriteLine("...會游的...");
             swinableList.Add(飛馬01);
             swinableList.Add(飛魚01);
             swinableList.Add(水鳥01);
             swinableList.Add(水獺01);
-
             foreach (ISwinable 會游者 in swinableList)
             {
-                會游者.呼吸();
-                會游者.飛();
-                會游者.走();
+                //會游者.呼吸();
+                //會游者.飛();
+                //會游者.走();
                 會游者.游();
-
             }
 
+            Console.WriteLine(飛馬01.ToString());     //會印出型別全名
+            Console.WriteLine(飛馬01.MyToString());
 
-
-
-
+            Console.ReadLine();
 
         }
+    }
+    static class AnimalExtension
+    {
+        public static string MyToString(this Animal target)
+        { return target.Name; }
     }
 }

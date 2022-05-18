@@ -107,7 +107,7 @@ namespace interface1
     {
         public void 走()
         {
-            Console.WriteLine($"{nameof(機器人)}");
+            throw new NotImplementedException();
         }
     }
 }
