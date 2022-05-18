@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --count:1;
+            --width:100% ;
+        }
+        .box{
+            
+            height: 300px;
+            margin: 30px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .col{
+            
+            border: 2px solid red;
+            box-sizing: border-box;
+        }
+
+        @media screen and (min-width: 768px){
+            .col{
+                --count:2;
+                width: calc(var(--width)/var(--count) - 30px*2);
+            }
+
+        }
+        @media screen and (min-width: 992px){
+            .col{
+                --count:3;
+            }
+
+        }
+        @media screen and (min-width: 1200px){
+            .col{
+                --count:4;
+            }
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+    <div class="col">
+
+        <img src="https://picsum.photos/300/200/?random=10">
+    </div>
+    <div class="col">
+        <img src="https://picsum.photos/300/200/?random=10">
+
+    </div>
+    <div class="col">
+        <img src="https://picsum.photos/300/200/?random=10">
+    </div>
+    <div class="col">
+        <img src="https://picsum.photos/300/200/?random=10">
+    </div>
+
+    </div>
+    
+</body>
+</html>

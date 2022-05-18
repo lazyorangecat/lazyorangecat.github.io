@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main-header{
+            padding: 10px 20px;
+            background-color: #aaa;
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+        }        
+        .logo img{
+            vertical-align: top;
+        }        
+        @media screen and (max-width:767px){            
+            .hb{
+            width: 40px;
+            height: 40px;
+            background-color: red;
+            }
+            .main-nav{
+            position: absolute;
+            width: 100%;
+            background-color: #fa0;
+            left: 0;
+            top: 100%;
+            display: none;
+            }
+            .main-nav a{
+                display: block;
+                padding: 10px 20px;
+            }            
+        }
+    </style>
+</head>
+<body>
+    <input type="checkbox" name="" id="menu_contral">
+    <div class="main-header">
+        <div class="logo">
+            <img src="https://fakeimg.pl/80x40/200">
+        </div>
+
+        <label for="menu_contral" class="hb">三</label>
+
+        
+
+        <nav class="main-nav">
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+
+        </nav>
+    </div>
+</body>
+</html>

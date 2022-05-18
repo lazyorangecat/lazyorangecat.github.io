@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --col_count:4;
+        }
+        .box{
+            --newWord:500px;/*子層可以取得父層，父層不能取得子層的自訂變數*/
+            --newWordColor:red;
+            height: 300px;
+            width: var(--newWord);
+            background-color: var(--newWordColor);
+        }
+        .child{
+            width: 400px;
+            background-color: #fff;
+            height: var(--newWord);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        box
+        <div class="child">
+            child
+        </div>
+    </div>
+    
+</body>
+</html>

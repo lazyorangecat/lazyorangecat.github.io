@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        
+        .item{
+            border: 1px solid red;
+            padding: 10px;
+            margin: 10px;
+            box-sizing: border-box;
+        }
+        .right{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        img{
+            width: 100%;
+        }
+        
+        
+        @media screen and (min-width:1200px) {
+            section{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            section.turn{
+                
+                flex-direction: row-reverse;
+                
+            }
+            .right{
+                width: 50%;
+            }
+            .right .item{
+                width:calc( 50% - 20px);
+            }
+            .left{
+                
+                width: 50%;
+            }
+            .left .item{
+                height:calc( 100% -10px);
+            }
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="left">
+            <div class="item">
+                <img src="https://picsum.photos/300/200/?random=10">
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="item">
+                <img src="https://picsum.photos/300/200/?random=10">
+            </div>
+            <div class="item">
+                <img src="https://picsum.photos/300/200/?random=10">
+            </div>
+            <div class="item">
+                <img src="https://picsum.photos/300/200/?random=10">
+            </div>
+            <div class="item">
+                <img src="https://picsum.photos/300/200/?random=10">
+            </div>
+        </div>
+
+    </section>
+    <section class="turn">
+        <div class="left">
+            <div class="item">
+                <img src="https://picsum.photos/300/200/?random=10">
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="item">
+                <img src="https://picsum.photos/300/200/?random=10">
+            </div>
+            <div class="item">
+                <img src="https://picsum.photos/300/200/?random=10">
+            </div>
+            <div class="item">
+                <img src="https://picsum.photos/300/200/?random=10">
+            </div>
+            <div class="item">
+                <img src="https://picsum.photos/300/200/?random=10">
+            </div>
+        </div>
+
+    </section>
+    
+    
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card{
+            border: 2px solid red;
+            position: relative;
+            width: 300px;
+            margin: 10px;
+        }
+        .tag{
+            background-color: orange;
+            position: absolute;
+            top: 10px;
+            left: -10px;
+        }
+        .tag::before{
+            left: 0px;
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            border-right: 8px solid #000;
+            border-bottom: 5px solid transparent;
+        }
+        .cheep{
+            background-color: red;
+            position: absolute;
+            top: 10px;
+            right: -10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="tag">蝦皮電到店</div>
+        <div class="cheep">8.5折</div>
+        <img src="https://picsum.photos/300/200/?random=10">
+        <h3>title></h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eveniet non possimus magni placeat quis culpa aliquid ex repellendus. Nobis, distinctio. Ipsum iusto obcaecati omnis pariatur, voluptates magni tenetur? Ducimus.</p>
+    </div>
+</body>
+</html>
