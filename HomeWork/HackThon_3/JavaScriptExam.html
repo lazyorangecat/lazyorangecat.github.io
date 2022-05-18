@@ -37,22 +37,22 @@
         <ul id="todo-list" class="">
         </ul>
     </div>
-    
+
     <template>
         <li class="border border-1 p-3 mt-1 d-flex">
             <div class="input-group mb-3 me-3">
-    
+
                 <div class="input-group-text">
                     <input class="form-check-input mt-0" type="checkbox" value="">
                 </div>
-    
+
                 <input type="text" class="form-control">
             </div>
-    
+
             <button class="edit btn btn-warning">編輯 </button>
             <button class="save btn btn-success d-none">保存 </button>
             <button class="remove btn btn-danger ms-3">刪除 </button>
-    
+
         </li>
     </template>
 
@@ -89,37 +89,122 @@
 
         function refreshUI() {//刷新
             //清空
-            ul_todoList.innerHTML=""
+            ul_todoList.innerHTML = ""
             //添加
-            todoArray.forEach(todoObj=>{
-                ul_todoList.append(getTodoCard)
+            todoArray.forEach((todoObj, index) => {
+                ul_todoList.append(getTodoCard(todoObj, index))
             })
         }
 
         //Add按鈕
 
-        const input_new=document.querySelector('#newThing')
-        const btn_add=document.querySelector('#add')
-        
-        btn_add.addEventListener('click',()=>{
+        const input_new = document.querySelector('#newThing')
+        const btn_add = document.querySelector('#add')
+
+        btn_add.addEventListener('click', () => {
             //造obj
-            let todoObj={
-                isDone:false,
-                text:input_new.value,
+            let todoObj = {
+                isDone: false,
+                text: input_new.value,
             }
+            
+            //refreshUI() 最無腦 就更新畫面
+            ul_todoList.append(getTodoCard(todoObj, todoArray.length))//效能好些 加一張卡
 
             //obj納入資料
             todoArray.push(todoObj)
+            //資料有變=>更新Storage
+            localStorage.setItem(key, JSON.stringify(todoArray))
+            input_new.value=""
 
-            localStorage.setItem(key,JSON.stringify(todoArray))
-            
-            ul_todoList.append(getTodoCard(todoObj))
-        
+
         })
+        // function getTodoCard({isDone,text}){         物件結構附值
+        //     // let isDone=todoObj.isDone
+        //     // let text=todoObj.text
+        //     let clonContent=template.content.cloneNode(true)
+        // }
 
-        function getTodoCard(todoObj){
-            let
+        function getTodoCard(todoObj, index) {            
+            let clonContent = template.content.cloneNode(true)
+
+            //tpl 內部UI
+            const ckbox = clonContent.querySelector('input[type="checkbox"]')
+            const input_text = clonContent.querySelector('input[type="text"]')
+            const btn_edit = clonContent.querySelector('.edit')
+            const btn_save = clonContent.querySelector('.save')
+            const btn_remove = clonContent.querySelector('.remove')
+
+            //^UI 資料 都準備好
+            //邏輯v
+            ckbox.checked = todoObj.isDone //setattribute()也可
+            ckbox.disabled = true
+            input_text.value = todoObj.text
+            input_text.disabled = true
+
+            btn_edit.addEventListener('click', edit)
+            btn_save.addEventListener('click', () => {
+                save(
+                    {
+                        isDone: ckbox.checked,
+                        text: input_text.value
+                    }
+                    , index
+                )
+            })
+            
+            btn_remove.addEventListener('click', () => { remove(index) })
+            
+            return clonContent
+            
+            function edit() {
+                // UI解禁
+                ckbox.disabled = false
+                input_text.disabled = false
+                //一藏一現
+                btn_edit.classList.add('d-none')
+                btn_save.classList.remove('d-none')
+                
+            }
+
         }
+
+        function save(todoObj, index) {
+            //把資料改變，所以需要知道索引值
+            todoArray[index] = todoObj
+            localStorage.setItem(key, JSON.stringify(todoArray))
+
+            // //最無腦 刷新UI
+            refreshUI()
+
+            // //效能好些://必須是local function, 才看得見卡牌內容的UI
+
+            // // UI禁用
+            // ckbox.disabled = true
+            // input_text.disabled = true
+            // //一藏一現
+            // btn_edit.classList.remove('d-none')
+            // btn_save.classList.add('d-none')
+        }
+
+        function remove(index) {
+            //把資料改變，所以需要知道索引值
+            todoArray.splice(index, 1)
+            localStorage.setItem(key, JSON.stringify(todoArray))
+
+            // //最無腦 刷新UI
+            refreshUI()
+
+            // 父.removeChild(卡)//索引值對不上會出問題
+
+
+        }
+        //onload    是 網頁"準備好"
+        //unonload  是 網頁"將關閉"
+        // window.onunload = () => {
+        //     localStorage.setItem(key, JSON, stringify(todoArray))
+        // }//如果有這串，上面的全部的「localStorage.setItem(key,JSON,stringify(todoArray))」都可以移除掉
+
     </script>
 
 
