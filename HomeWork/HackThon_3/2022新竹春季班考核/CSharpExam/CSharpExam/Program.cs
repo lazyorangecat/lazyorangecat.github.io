@@ -44,6 +44,9 @@ namespace CSharpExam
                     from c in courseList
                     select c.Name));
 
+            var a1=courseList.Select(c => c.Name);
+            Console.WriteLine(string.Join("\n",a1));
+
 
             Console.WriteLine($"{Environment.NewLine}");
             #endregion
@@ -55,6 +58,8 @@ namespace CSharpExam
                 from c in courseList
                 where c.Classroom == "L107"
                 select c.CourseId));
+
+            Console.WriteLine();
 
 
             Console.WriteLine($"{Environment.NewLine}");

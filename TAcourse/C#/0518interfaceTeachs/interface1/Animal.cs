@@ -31,17 +31,17 @@ namespace interface1
 
         public void 游()
         {
-            throw new NotImplementedException();
+         
         }
 
         public void 走()
         {
-            throw new NotImplementedException();
+            
         }
 
         public void 飛()
         {
-            throw new NotImplementedException();
+            
         }
     }
     class 飛魚 : Animal, IFlyable, ISwinable
@@ -52,12 +52,12 @@ namespace interface1
 
         public void 游()
         {
-            throw new NotImplementedException();
+            
         }
 
         public void 飛()
         {
-            throw new NotImplementedException();
+            
         }
     }
     class 水獺 : Animal, IWaikable, ISwinable
@@ -68,11 +68,11 @@ namespace interface1
 
         public void 走()
         {
-            throw new NotImplementedException();
+            
         }
         public void 游()
         {
-            throw new NotImplementedException();
+            
         }
     }
     class 水鳥 : Animal, IFlyable, IWaikable, ISwinable
@@ -83,31 +83,31 @@ namespace interface1
 
         public void 游()
         {
-            throw new NotImplementedException();
+           
         }
 
         public void 走()
         {
-            throw new NotImplementedException();
+           
         }
 
         public void 飛()
         {
-            throw new NotImplementedException();
+           
         }
     }
     class 飛機 : IFlyable
     {
         public void 飛()
         {
-            throw new NotImplementedException();
+            
         }
     }
     class 機器人 : IWaikable
     {
         public void 走()
         {
-            throw new NotImplementedException();
+            
         }
     }
 }

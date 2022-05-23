@@ -10,33 +10,42 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <style>
-        .color-circle
-        {
+        .color-circle {
             height: 22px;
             width: 22px;
             border-radius: 80%;
         }
-
     </style>
 
 
 </head>
 
 <body>
+    <header>
+        <div class="container">
+            <nav class="d-flex justify-content-evenly">
+                <!-- iPad按鈕、iPhone按鈕 -->
+            </nav>
+        </div>
+    </header>
     <main>
         <div class="container">
+            <div class="d-flex justify-content-between">
+                <h2>iPad</h2>
+                <p>金額:$ <span id="total">{1}</span>元</p>
+            </div>
+
             <div class="row">
                 <div class="main-pic col-12 col-md-6">
                     <img src="" alt="檔案路徑">
                 </div>
 
-                <div class="main-specs col-12 col-md-6">
+                <ul class="main-specs col-12 col-md-6">
                     各組規格
-                </div>
+                </ul>
             </div>
         </div>
     </main>
-
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -45,13 +54,11 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
+        <script src="../../../XiJiangHua_JavaScript/Apple/apple.js"></script>
+    
 
     <script>
+        
         let productArray = [
             {
                 productName: 'iPad',
@@ -68,8 +75,8 @@
 
 
                         choosed: null,
-                        changePrice:true,
-                        changeImg:true,
+                        changePrice: true,
+                        changeImg: true,
 
                     },
                     {
@@ -84,8 +91,8 @@
 
 
                         choosed: null,
-                        changePrice:false,
-                        changeImg:true,
+                        changePrice: false,
+                        changeImg: true,
 
                     },
                     {
@@ -100,8 +107,8 @@
 
 
                         choosed: null,
-                        changePrice:true,
-                        changeImg:false,
+                        changePrice: true,
+                        changeImg: false,
 
                     },
                     {
@@ -114,8 +121,8 @@
 
 
                         choosed: null,
-                        changePrice:true,
-                        changeImg:false,
+                        changePrice: true,
+                        changeImg: false,
 
                     },
                 ]
@@ -164,50 +171,50 @@
                     li.appendChild(button)
 
                     //大字
-                    if(spec.key=='color'){
-                        let div=document.createElement('div')
+                    if (spec.key == 'color') {
+                        let div = document.createElement('div')
                         button.appendChild(div)
                         div.classList.add('color-circle')
-                        div.style.backgroundColor=option.data
+                        div.style.backgroundColor = option.data
                     }
-                    else{
-                        let h4=document.createElement('h4')
+                    else {
+                        let h4 = document.createElement('h4')
                         button.appendChild(h4)
-                        h4.innerText=option.data
+                        h4.innerText = option.data
                     }
 
                     // 小字
-                    if(option.description!=undefined){
-                        let span=document.createElement('span')
+                    if (option.description != undefined) {
+                        let span = document.createElement('span')
                         button.appendChild(span)
-                        span.innerText=option.description
+                        span.innerText = option.description
                     }
                     //加價
-                    if(option.extraPrice!=undefined){
-                        let p =document.createElement('p')
+                    if (option.extraPrice != undefined) {
+                        let p = document.createElement('p')
                         button.appendChild(p)
-                        p.innerText="+$"+option.extraPrice
+                        p.innerText = "+$" + option.extraPrice
                         p.classList.add('bg-warning')
                     }
                     // button.append(h4,span,p)
                     //
-                    button.addEventListener('click',()=>{
+                    button.addEventListener('click', () => {
                         //1.紀錄"此規格"選種了"此選項"
-                        spec.choosed=option
+                        spec.choosed = option
                         //2.改樣式
-                            //移除同組按鈕的.choosed
-                            //自己要加.choosed
-                        li.querySelectorAll('button').forEach(b=>{
+                        //移除同組按鈕的.choosed
+                        //自己要加.choosed
+                        li.querySelectorAll('button').forEach(b => {
                             b.classList.remove('choosed')
                         })
                         button.classList.add('choosed')
                         //3.刷新圖和錢
                         //與上個範例差別:不用全選完，也能決定錢和圖
                         //有的規格影響圖，有的影響錢
-                        if(spec.changePrice){
+                        if (spec.changePrice) {
                             refreshPrice()
                         }
-                        if(spec.changeImg){
+                        if (spec.changeImg) {
                             refreshImg()
                         }
 
@@ -219,7 +226,7 @@
                 li.appendChild(document.createElement('hr'))
             })
 
-            function refreshPrice(){
+            function refreshPrice() {
                 // //收集spec.choosed非null的
                 // let choosedSpecs=
                 //     product.specArray.filter(spec=> spec.choosed!=null&&spec.changePrice)
@@ -228,28 +235,28 @@
                 // //選項只保留錢
                 // let extraPrices=chossedOptions.map(option=>option.extraPrice)
 
-                let extraPrices=product.specArray
-                .filter(spec=> spec.choosed!=null&&spec.changePrice)
-                .map(spec=>spec.choosed.extraPrice)
+                let extraPrices = product.specArray
+                    .filter(spec => spec.choosed != null && spec.changePrice)
+                    .map(spec => spec.choosed.extraPrice)
 
                 //統計額外加價
-                let totalExtra=extraPrices.reduce((sum,x)=>sum+x)
-                
+                let totalExtra = extraPrices.reduce((sum, x) => sum + x)
+
                 //顯示總價
-                span_price.innerHTML=product.basePrice+totalExtra
+                span_price.innerHTML = product.basePrice + totalExtra
 
             }
 
-            function refreshImg(){
-                let choosedData=product.specArray
-                    .filter(spec=>spec.choosed!=null&&spec.changeImg)
-                    .map(spec=>spec.choosed.data)
+            function refreshImg() {
+                let choosedData = product.specArray
+                    .filter(spec => spec.choosed != null && spec.changeImg)
+                    .map(spec => spec.choosed.data)
 
                 //組合出圖檔名稱
-                let filename=choosedData.reduce((sum,x)=>sum+"_"+x)
+                let filename = choosedData.reduce((sum, x) => sum + "_" + x)
 
                 //顯示 圖
-                img_.alt="/"+filename+".jpg"
+                img_.alt = "/" + filename + ".jpg"
 
 
             }

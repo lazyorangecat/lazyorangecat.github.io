@@ -24,16 +24,17 @@ namespace Hw_03_03
                 .TotalHours * 2;
             //.Hours        =>取整數,多出的時間捨去
             //.TotalHours   =>小數
+            halfHours =Math.Round(halfHours, 2);
 
             //防呆
-            if(halfHours<0)
+            if (halfHours < 0)
             {
                 MessageBox.Show("先進後出啦");
                 return;
             }
 
-            //計費 的時長 (題目說 不滿八小時的不算)
-            lbl_fee.Text = CalcTotalFee((int)halfHours) + "元";
+            //計費 的時長 (題目說 不滿半小時的不算)
+            lbl_fee.Text =(halfHours/2)+"小時"+ CalcTotalFee((int)halfHours) + "元";
 
         }
 
@@ -59,30 +60,31 @@ namespace Hw_03_03
                 //非此級的時長(剩下的)
                 halfHours = lv.ChargeBate半小時費率;
 
+                return over * lv.ChargeBate半小時費率;
+
             });
         }
 
 
         //法一
-        private string CalcTotalFee(int halfHours)
+        private int CalcTotalFee(int halfHours)
         {
             int total = 0;
-            if(halfHours >8)//四小時
+            if (halfHours > 8)//四小時
             {
-                total+=(halfHours-8)*60;
-                halfHours = 8;
-            }
-            if(halfHours >4)//二小時
-            {
-                total += (halfHours - 4) * 60;
+                total += (halfHours - 8) * 60;
                 halfHours = 8;
             }
             if (halfHours > 4)//二小時
             {
-                total += (halfHours - 4) * 60;
-                halfHours = 8;
+                total += (halfHours - 4) * 40;
+                halfHours = 4;
             }
-
+            if (halfHours > 0)
+            {
+                total += (halfHours - 0) * 30;
+            }
+            return total;
         }
     }
 }

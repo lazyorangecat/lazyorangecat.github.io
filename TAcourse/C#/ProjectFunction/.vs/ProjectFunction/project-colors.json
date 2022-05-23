@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c35aac70-1786-4d65-825c-9c17891c3933": {
+      "ProjectGuid": "c35aac70-1786-4d65-825c-9c17891c3933",
+      "DisplayName": "Encryption",
+      "ColorIndex": 0
+    },
+    "ae63a135-ed23-46de-be8f-9dde92e69bdc": {
+      "ProjectGuid": "ae63a135-ed23-46de-be8f-9dde92e69bdc",
+      "DisplayName": "MailSample",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
