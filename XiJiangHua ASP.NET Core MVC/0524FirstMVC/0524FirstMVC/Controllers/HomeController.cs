@@ -13,7 +13,7 @@ namespace _0524FirstMVC.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger)               //HomeController:母雞、控制狂
         {
             _logger = logger;
         }
