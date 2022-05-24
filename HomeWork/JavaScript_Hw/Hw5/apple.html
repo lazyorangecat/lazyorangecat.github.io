@@ -31,8 +31,8 @@
     <main>
         <div class="container">
             <div class="d-flex justify-content-between">
-                <h2>iPad</h2>
-                <p>金額:$ <span id="total">{1}</span>元</p>
+                <h2>【產品線名】</h2>
+                <p>目前累積金額:$ <span id="total">{1}</span>元</p>
             </div>
 
             <div class="row">
@@ -54,14 +54,81 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
 
-        <script src="../../../XiJiangHua_JavaScript/Apple/apple.js"></script>
-    
+    <script src="../../../XiJiangHua_JavaScript/Apple/apple.js"></script>
+
 
     <script>
-        
-        let productArray = [
-            {
+
+        let productArray = [                   //JSON.parse(xhr.response)
+        {
                 productName: 'iPad',
+                baseImg: 'iPad產品總圖.jpg',
+                basePrice: 3000,
+                specArray: [ //Specification
+                    {
+                        title: "機型",
+                        key: 'model',
+                        options: [
+                            { data: '9吋顯示器', extraPrice: 0, description: 'Liquid Retina 顯示器', },
+                            { data: '12.2吋顯示器', extraPrice: 10000, description: 'Liquid Retina XDR 顯示器', },
+                        ],
+
+
+                        choosed: null,
+                        changePrice: true,
+                        changeImg: true,
+
+                    },
+                    {
+                        title: "外觀",
+                        key: 'color',
+                        options: [
+                            { data: '#777', description: '太空灰色', },
+                            { data: '#ddd', description: '銀色', },
+                            { data: '#faa', description: '玫瑰金色', },
+                            { data: '#0f0', description: '綠色', },
+                        ],
+
+
+                        choosed: null,
+                        changePrice: false,
+                        changeImg: true,
+
+                    },
+                    {
+                        title: '儲存裝置',
+                        key: 'storage',
+                        options: [
+                            { data: '128GB', extraPrice: 0, },
+                            { data: '256GB', extraPrice: 1000, },
+                            { data: '512GB', extraPrice: 2000, },
+                            { data: '1TB', extraPrice: 4000, },
+                        ],
+
+
+                        choosed: null,
+                        changePrice: true,
+                        changeImg: false,
+
+                    },
+                    {
+                        title: '連線能力',
+                        key: 'network',
+                        options: [
+                            { data: 'Wi-Fi', extraPrice: 0, },
+                            { data: 'Wi-Fi + 行動網路', extraPrice: 5000, },
+                        ],
+
+
+                        choosed: null,
+                        changePrice: true,
+                        changeImg: false,
+
+                    },
+                ]
+            },
+            {
+                productName: 'iPhone',
                 baseImg: 'iPad產品總圖.jpg',
                 basePrice: 3000,
                 specArray: [ //Specification
@@ -130,11 +197,13 @@
         ]
         //靜態UI
         const nav = document.querySelector('nav')
-        const h2_name = document.querySelector('main h2')
 
+        const h2_name = document.querySelector('main h2')
         const span_price = document.querySelector('#total')
+
         const img_ = document.querySelector('.main-pic')
         const ul_specs = document.querySelector('.main-specs')
+
         //(一)導覽列+產品線按鈕(一種產品線資料=一顆按鈕)
         productArray.forEach(product => {
             let btn = document.createElement('button')
@@ -149,7 +218,7 @@
         selectProduct(productArray[0])
 
         function selectProduct(product) {
-            //改變產品的4項選項
+            //改變產品的:名稱、基本圖、基本價、規格
             h2_name.innerHTML = product.productName
             img_.alt = product.baseImg
             span_price.innerHTML = product.basePrice
@@ -235,6 +304,7 @@
                 // //選項只保留錢
                 // let extraPrices=chossedOptions.map(option=>option.extraPrice)
 
+                //上面三聚合體
                 let extraPrices = product.specArray
                     .filter(spec => spec.choosed != null && spec.changePrice)
                     .map(spec => spec.choosed.extraPrice)
