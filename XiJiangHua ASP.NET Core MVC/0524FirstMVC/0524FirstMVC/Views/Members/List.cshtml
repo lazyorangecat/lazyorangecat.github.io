@@ -1,2 +1,64 @@
-﻿
-<h1>Member List成員列表</h1>
+﻿@{
+    string teamName = "第一組";
+
+    //C#
+    string jsonMembers = (string)ViewData["jsonMembers"];
+}
+<h1>Member List成員列表 : @teamName</h1>
+
+<p>@jsonMembers</p>
+
+<div class='row'>
+</div>
+
+<template id="cardTemplate">
+    <div class="card" style="width: 18rem;">
+        <img src="" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-primary">詳細內容</a>
+        </div>
+    </div>
+</template>
+
+
+<script>
+    var membersArray = @Html.Raw(jsonMembers);
+
+    let row, cardTemplate ;
+
+    window.onload=function(){
+        row = document.querySelector(".row");
+        cardTemplate  = document.querySelector("#cardTemplate");
+
+        membersArray.forEach((member, index)=>{
+            row.append(getCard(member.Name, member.Photo));
+        });
+    }
+
+    function getCard(title, imgurl) {
+        let cloneCard = cardTemplate.content.cloneNode(true);
+
+        cloneCard.querySelector("img").src = imgurl;
+        cloneCard.querySelector("h5").innerHTML = title;
+
+        cloneCard.querySelector(".btn").addEventListener("click",function(){
+            alert(title);
+        });
+
+        return cloneCard;
+    }
+
+    function getCardString(title, imgurl, price) {
+        let card = `<div class="card" style="width: 18rem;">`;
+        card += `<img src="${imgurl}" class="card-img-top" alt="...">`;
+        card += `<div class="card-body">`;
+        card += `<h5 class="card-title">${title}</h5>`;
+        card += `<h5 class="card-title">NT ${price}</h5>`;
+        card += `</div>`;
+        card += `</div>`;
+
+        return card;
+    }
+</script>

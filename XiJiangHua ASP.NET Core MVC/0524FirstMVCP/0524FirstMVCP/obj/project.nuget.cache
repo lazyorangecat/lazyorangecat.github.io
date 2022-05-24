@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "buiuj2EcZLaahu4BW39DTIeQcnvSCQ+V5h8Q4DSM6d4vA0woN7TP60/aDpzpuhjpLECF3+75OgInqFn2Uq/wdA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\OneDrive\\桌面\\BuildSchool\\git\\lazyorangecat.github.io\\XiJiangHua ASP.NET Core MVC\\0524FirstMVCP\\0524FirstMVCP\\0524FirstMVCP.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
