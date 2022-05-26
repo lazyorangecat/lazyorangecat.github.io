@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+            width: 111px;
+            height: 111px;
+            padding: 22px;
+            margin-left: 22px;
+            background-color: #fcc;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        口
+    </div>
+    <hr>
+
+    offsetX 鼠標距離 目標的 padding edge
+    <div id="msg1"></div>
+    <hr>
+
+    clientX 鼠標距離 城市視口 application's viewport
+    <div id="msg2"></div>
+
+    <script>
+        box.onclick=(e)=>{
+            msg1.innerHTML=e.offsetX
+            msg2.innerHTML=e.clientX
+        }
+    </script>
+</body>
+</html>

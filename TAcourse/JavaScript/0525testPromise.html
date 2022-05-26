@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //若沒有resolver，會報錯
+        //Promise  resolver undefind is not a function
+        let p0 = new Promise(() => { })
+        p0
+            .then()
+            .catch('c1')
+            .finally('f1')
+
+        let p1 = new Promise((resolve, myReject) => {
+            resolve();
+            //myReject();
+        })
+
+        p1
+            .then(() => {
+                console.log('t1')
+            })
+            .catch(() => {
+                console.log('c1')
+            })
+            .finally(() => {
+                console.log('f1')
+                console.log('-----')
+            })
+
+        let p2 = new Promise((resolve, myReject) => {
+            setTimeout(() => {
+                resolve("oo");
+                //myReject("xx");
+
+            }, 1)
+        })
+
+        p2
+            .then((result) => {
+                console.log('t2')
+                console.log(result)
+            })
+            .catch((err) => {
+                console.log('c2')
+                console.log(err)
+            })
+            .finally(() => {
+                console.log('f2')
+            })
+
+        //仿Fetch
+        function myFetch() {
+            return new Promise((resolve) => {
+                resolve('fetch Result')
+            })
+        }
+        setTimeout(() => {
+            myFetch()
+                .then((result) => {
+                    console.log(result)
+                    console.log('-----')
+
+                })
+        }, 2)
+
+        //串順序
+        p1
+            .then(() => p2)
+            .then(() => myFetch())
+            .then(() => new Promise((resolve) => {
+                resolve('[1,2,3]')
+
+            })
+            )
+            .then(text=>console.log(text))
+
+        //等 事情都準備好才準備下一步 EX.取得兩組資料要重組再一起
+        Promise.all([p1, p2])//陣列包著各個Promise
+        .then(()=>{
+            console.log('p1p2都做完囉')
+            return myFetch()
+        })
+        .then(result=>console.log(result))
+
+        document.addEventListener('keypress',(e)=>{
+            console.log(e.keyCode)
+            console.log(e.code)
+            console.log(e.keyCode)
+
+        })
+    </script>
+</body>
+
+</html>

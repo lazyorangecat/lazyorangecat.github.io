@@ -28,10 +28,28 @@ namespace _0524FirstMVC.Migrations
                     b.Property<string>("Brief")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("City")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Department")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FuturePlan")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("Gender")
+                        .HasColumnType("bit");
+
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Photo")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Salary")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Team")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -42,58 +60,405 @@ namespace _0524FirstMVC.Migrations
                         new
                         {
                             Id = 1,
-                            Brief = "平時喜好打APEX、LOL最近每天去打撞球",
-                            Name = "王泓凱",
-                            Photo = "https://raw.githubusercontent.com/PurerKai/MVCAPI/main/myself.png"
+                            Brief = "我的興趣大吃大喝，喜歡購物，就是沒錢",
+                            City = "Malaysia",
+                            Department = "國際企業學系",
+                            FuturePlan = "Work",
+                            Gender = false,
+                            Name = "林詠琦",
+                            Photo = "https://raw.githubusercontent.com/YongChyi/YongChyi.github.io/main/45296.jpg",
+                            Salary = "40000-50000",
+                            Team = "第一組"
                         },
                         new
                         {
                             Id = 2,
-                            Brief = "甜點愛好者",
-                            Name = "王俐璇",
-                            Photo = "https://raw.githubusercontent.com/Lemon-2001/FileStoreage/main/MVC/Hsuan.jpeg"
+                            Brief = "雙胞胎姐姐",
+                            City = "Malaysia",
+                            Department = "國際企業學系",
+                            FuturePlan = "Study",
+                            Gender = false,
+                            Name = "林詩琦",
+                            Photo = "https://raw.githubusercontent.com/ShiChyiLim/ShiChyiLim.github.io/main/1784C24F-3C76-475D-A246-B8B1F58CBD7E.jpg",
+                            Salary = "40000-60000",
+                            Team = "第一組"
                         },
                         new
                         {
                             Id = 3,
-                            Brief = "抽菸,飆車,",
-                            Name = "楊明翰",
-                            Photo = "https://raw.githubusercontent.com/ert3455668/ert3455668.github.io/main/JavaScript/77F5723D-D640-4DA9-A57C-2C1542D58145.jpg"
+                            Brief = "單身",
+                            City = "新竹市",
+                            Department = "資訊工程學系",
+                            FuturePlan = "Work",
+                            Gender = true,
+                            Name = "Neil",
+                            Photo = "https://raw.githubusercontent.com/Neil-Yang3759/Neil-Yang3759.github.io/main/JS/HW1/selfie.jpg",
+                            Salary = "100000-150000",
+                            Team = "第一組"
                         },
                         new
                         {
                             Id = 4,
-                            Brief = "看女團",
-                            Name = "昱寬",
-                            Photo = "https://raw.githubusercontent.com/Kuan1215/FileStorage/main/D6480B08-E095-456D-BB43-C0372D0FB0AC.jpg"
+                            Brief = "123",
+                            City = "新北市",
+                            Department = "資訊工程學系",
+                            FuturePlan = "Study",
+                            Gender = true,
+                            Name = "王紀翔",
+                            Photo = "https://raw.githubusercontent.com/shaun881017/shaun881017.github.io/main/JS_HW1/D1F75C32-5FF6-4442-AA67-47A11D25F468.jpg",
+                            Salary = "50000-60000",
+                            Team = "第一組"
                         },
                         new
                         {
                             Id = 5,
-                            Brief = "聽音樂、看看書、過生活",
-                            Name = "吳奕君",
-                            Photo = "https://raw.githubusercontent.com/Chun-2000/Chun-2000.github.io/main/MyPhoto.jpg"
+                            Brief = "窩不知道",
+                            City = "苗栗縣",
+                            Department = "資訊工程學系",
+                            FuturePlan = "Work",
+                            Gender = true,
+                            Name = "余仲恩",
+                            Photo = "https://raw.githubusercontent.com/ycm123/FileStorage/main/20712.jpg",
+                            Salary = "36000-40000",
+                            Team = "第一組"
                         },
                         new
                         {
                             Id = 6,
-                            Brief = "充滿文學氣質的文藝青年",
-                            Name = "羅世晏",
-                            Photo = "https://raw.githubusercontent.com/LoShinYen/FileStorages/main/S__5750791.jpg"
+                            Brief = "喜歡玩遊戲",
+                            City = "雲林縣",
+                            Department = "資訊工程學系",
+                            FuturePlan = "Study",
+                            Gender = true,
+                            Name = "林秉謙",
+                            Photo = "https://raw.githubusercontent.com/Silmonght/Silmonght.github.io/main/steven.jpg",
+                            Salary = "38000-45000",
+                            Team = "第一組"
                         },
                         new
                         {
                             Id = 7,
-                            Brief = "可愛又迷人的反派角色",
-                            Name = "張添宇",
-                            Photo = "https://raw.githubusercontent.com/RainRoc1222/RainRoc1222.github.io/main/178099682_6502551609770280_5658538484540389917_n.jpg"
+                            Brief = "I’m very communicative, detail-oriented, and versatile. I like to think of myself as a team player. While I don’t mind taking on solo projects, I prefer to work with others.I like to think that I’m persistent and persuasive. Working in sales, these traits have served me well. Outside of work, I enjoy taking part in lively debates where I can share my views with others.",
+                            City = "新竹市",
+                            Department = "企業管理學系",
+                            FuturePlan = "Work",
+                            Gender = true,
+                            Name = "魏子涵",
+                            Photo = "https://raw.githubusercontent.com/Neil-Yang3759/FileStorage/main/IMG_0299.jpg",
+                            Salary = "100000-150000",
+                            Team = "第一組"
                         },
                         new
                         {
                             Id = 8,
+                            Brief = "最愛南柱赫!!!!!",
+                            City = "基隆市",
+                            Department = "觀光與會展活動學系",
+                            FuturePlan = "work",
+                            Gender = false,
+                            Name = "李家萱",
+                            Photo = "https://raw.githubusercontent.com/JiaXuan1083/FileStorage/main/IMG_7403.JPG",
+                            Salary = "40000-45000",
+                            Team = "第二組"
+                        },
+                        new
+                        {
+                            Id = 9,
+                            Brief = "打羽球",
+                            City = "雲林縣",
+                            Department = "生物資訊學系 ",
+                            FuturePlan = "work",
+                            Gender = false,
+                            Name = "廖培余",
+                            Photo = "https://raw.githubusercontent.com/yu1129/hard/main/%E4%BD%99.jpg",
+                            Salary = "40000-48000",
+                            Team = "第二組"
+                        },
+                        new
+                        {
+                            Id = 10,
+                            Brief = "聽音樂",
+                            City = "高雄市",
+                            Department = "生物資訊學系",
+                            FuturePlan = "study",
+                            Gender = false,
+                            Name = "吳霈玟",
+                            Photo = "https://raw.githubusercontent.com/wen-0510/FileStorages/main/1.jpg",
+                            Salary = "42000-48000",
+                            Team = "第二組"
+                        },
+                        new
+                        {
+                            Id = 11,
+                            Brief = "愛貓",
+                            City = "苗栗縣",
+                            Department = "生物資訊學系 ",
+                            FuturePlan = "work",
+                            Gender = false,
+                            Name = "朱彥蓉",
+                            Photo = "https://raw.githubusercontent.com/t333685/t333685.github.io/590201655655be034c9866169ddbab949d138e33/S__7020548.jpg",
+                            Salary = "35000-40000",
+                            Team = "第二組"
+                        },
+                        new
+                        {
+                            Id = 12,
+                            Brief = "瑜珈",
+                            City = "台南市",
+                            Department = "生物資訊學系",
+                            FuturePlan = "work",
+                            Gender = false,
+                            Name = "盧致文",
+                            Photo = "https://raw.githubusercontent.com/chihwen1215/FileStorage/main/S__35127335.jpg",
+                            Salary = "40000-45000",
+                            Team = "第二組"
+                        },
+                        new
+                        {
+                            Id = 13,
+                            Brief = "打羽球",
+                            City = "台中市",
+                            Department = "工業管理學系",
+                            FuturePlan = "study",
+                            Gender = false,
+                            Name = "楊子慧",
+                            Photo = "https://raw.githubusercontent.com/LittleY11/FileStorage/main/photo.jpg",
+                            Salary = "40000-45000",
+                            Team = "第二組"
+                        },
+                        new
+                        {
+                            Id = 14,
+                            Brief = "看比賽",
+                            City = "桃園市",
+                            Department = "資訊工程學系",
+                            FuturePlan = "work",
+                            Gender = true,
+                            Name = "戴閣廷",
+                            Photo = "https://raw.githubusercontent.com/hi8787h/hi8787h.github.io/main/photo/Myphoto.png",
+                            Salary = "36000-42000",
+                            Team = "第二組"
+                        },
+                        new
+                        {
+                            Id = 15,
+                            Brief = "看女團",
+                            City = "桃園市",
+                            Department = "生物資訊學系",
+                            FuturePlan = "work",
+                            Gender = true,
+                            Name = "江昱寬",
+                            Photo = "https://raw.githubusercontent.com/Kuan1215/FileStorage/main/D6480B08-E095-456D-BB43-C0372D0FB0AC.jpg",
+                            Salary = "70000-150000",
+                            Team = "第二組"
+                        },
+                        new
+                        {
+                            Id = 16,
+                            Brief = "超愛出去玩",
+                            City = "桃園市",
+                            Department = "企業管理學系",
+                            FuturePlan = "Work",
+                            Gender = false,
+                            Name = "陳妤瑄",
+                            Photo = "https://raw.githubusercontent.com/Jamie1721/FileStorage/main/S__6267102.jpg",
+                            Salary = "35000 ~ 40000",
+                            Team = "第三組"
+                        },
+                        new
+                        {
+                            Id = 17,
+                            Brief = "超愛羽球",
+                            City = "台北市",
+                            Department = "資訊管理學系",
+                            FuturePlan = "Work",
+                            Gender = true,
+                            Name = "陳柏宇",
+                            Photo = "https://raw.githubusercontent.com/Ankepoyou/FileStorage/main/IMG_20210518_154803_800.jpg",
+                            Salary = "35000 ~ 40000",
+                            Team = "第三組"
+                        },
+                        new
+                        {
+                            Id = 18,
+                            Brief = "上網",
+                            City = "南投縣",
+                            Department = "資訊工程學系",
+                            FuturePlan = "Work",
+                            Gender = true,
+                            Name = "徐秉詰",
+                            Photo = "https://raw.githubusercontent.com/3TeT3/FileStorage_/main/16140801732026.jpg",
+                            Salary = "35000-42000",
+                            Team = "第三組"
+                        },
+                        new
+                        {
+                            Id = 19,
+                            Brief = "看漫畫",
+                            City = "新竹市",
+                            Department = "工業工程管理學系",
+                            FuturePlan = "Work",
+                            Gender = false,
+                            Name = "陳亮羽",
+                            Photo = "https://raw.githubusercontent.com/liang10713/FileStorage/main/64102.jpg",
+                            Salary = "35000 ~ 40000",
+                            Team = "第三組"
+                        },
+                        new
+                        {
+                            Id = 20,
+                            Brief = "玩摩爾",
+                            City = "新北市",
+                            Department = "生物資訊系",
+                            FuturePlan = "Study",
+                            Gender = false,
+                            Name = "劉禮婷",
+                            Photo = "https://raw.githubusercontent.com/Lyting030/Lyting030.github.io/main/0524.jpg",
+                            Salary = "40000 ~ 50000",
+                            Team = "第三組"
+                        },
+                        new
+                        {
+                            Id = 21,
+                            Brief = "看漫畫",
+                            City = "台東縣",
+                            Department = "工業工程管理學系(原科技管理學系)",
+                            FuturePlan = "Work",
+                            Gender = false,
+                            Name = "楊景琁",
+                            Photo = "https://raw.githubusercontent.com/Kei209/FileStorage/main/2022-05-24-15-52-31-817.jpg",
+                            Salary = "36000-42000",
+                            Team = "第三組"
+                        },
+                        new
+                        {
+                            Id = 22,
+                            Brief = "看漫畫",
+                            City = "新竹縣",
+                            Department = "應用日語學系",
+                            FuturePlan = "Study",
+                            Gender = false,
+                            Name = "范華軒",
+                            Photo = "https://fan-hua-hsuan.github.io/photo/hana.jpg,",
+                            Salary = "35000 ~ 40000",
+                            Team = "第三組"
+                        },
+                        new
+                        {
+                            Id = 23,
+                            Brief = "追劇",
+                            City = "新竹縣",
+                            Department = "工業工程管理學系",
+                            FuturePlan = "Work",
+                            Gender = false,
+                            Name = "林盈均",
+                            Photo = "https://raw.githubusercontent.com/linyign/FileStorage/main/pic.jpg",
+                            Salary = "36000-42000",
+                            Team = "第三組"
+                        },
+                        new
+                        {
+                            Id = 24,
+                            Brief = "看書",
+                            City = "新竹市",
+                            Department = "資訊工程學系",
+                            FuturePlan = "NA",
+                            Gender = true,
+                            Name = "彭宗文",
+                            Photo = "https://raw.githubusercontent.com/DavidPeng1/FileStorage/main/IMG_0039.JPG",
+                            Salary = " 200000 ~ 500000",
+                            Team = "第三組"
+                        },
+                        new
+                        {
+                            Id = 25,
+                            Brief = "抽菸,飆車,",
+                            City = "宜蘭縣",
+                            Department = "國際企業系",
+                            FuturePlan = "work",
+                            Gender = true,
+                            Name = "楊明翰",
+                            Photo = "https://raw.githubusercontent.com/ert3455668/ert3455668.github.io/main/JavaScript/77F5723D-D640-4DA9-A57C-2C1542D58145.jpg",
+                            Salary = "38000~42000",
+                            Team = "第四組"
+                        },
+                        new
+                        {
+                            Id = 26,
+                            Brief = "充滿文學氣質的文藝青年",
+                            City = "新竹縣",
+                            Department = "航海系",
+                            FuturePlan = "work+study",
+                            Gender = true,
+                            Name = "羅世晏",
+                            Photo = "https://raw.githubusercontent.com/LoShinYen/FileStorages/main/S__5750791.jpg",
+                            Salary = "36000~45000",
+                            Team = "第四組"
+                        },
+                        new
+                        {
+                            Id = 27,
+                            Brief = "可愛又迷人的反派角色",
+                            City = "新竹市",
+                            Department = "資管系",
+                            FuturePlan = "work+study",
+                            Gender = true,
+                            Name = "張添宇",
+                            Photo = "https://raw.githubusercontent.com/RainRoc1222/RainRoc1222.github.io/main/178099682_6502551609770280_5658538484540389917_n.jpg",
+                            Salary = "40000~40002",
+                            Team = "第四組"
+                        },
+                        new
+                        {
+                            Id = 28,
+                            Brief = "平時喜好打APEX、LOL最近每天去打撞球",
+                            City = "",
+                            Department = "資管系",
+                            FuturePlan = "",
+                            Gender = true,
+                            Name = "王泓凱",
+                            Photo = "https://raw.githubusercontent.com/PurerKai/MVCAPI/main/myself.png",
+                            Salary = "",
+                            Team = "第四組"
+                        },
+                        new
+                        {
+                            Id = 29,
+                            Brief = "聽音樂、看看書、過生活",
+                            City = "新竹市",
+                            Department = "資工系",
+                            FuturePlan = "stuty",
+                            Gender = false,
+                            Name = "吳奕君",
+                            Photo = "https://raw.githubusercontent.com/Chun-2000/Chun-2000.github.io/main/MyPhoto.jpg",
+                            Salary = "38000~40000",
+                            Team = "第四組"
+                        },
+                        new
+                        {
+                            Id = 30,
+                            Brief = "甜點愛好者",
+                            City = "台南市",
+                            Department = "資工系",
+                            FuturePlan = "stuty",
+                            Gender = false,
+                            Name = "王俐璇",
+                            Photo = "https://raw.githubusercontent.com/Lemon-2001/FileStoreage/main/MVC/Hsuan.jpeg",
+                            Salary = "36000-42000",
+                            Team = "第四組"
+                        },
+                        new
+                        {
+                            Id = 31,
                             Brief = "可以坐著就不要站著，可以躺著就不要坐著",
+                            City = "台南市",
+                            Department = "資管系",
+                            FuturePlan = "work",
+                            Gender = true,
                             Name = "郭柏言",
-                            Photo = "https://raw.githubusercontent.com/lazyorangecat/lazyorangecat.github.io/main/XiJiangHua%20ASP.NET%20Core%20MVC/0524FirstMVC/12.jpeg"
+                            Photo = "https://lazyorangecat.github.io/XiJiangHua%20ASP.NET%20Core%20MVC/0524FirstMVC/12.jpeg",
+                            Salary = "40000~45000",
+                            Team = "第四組"
                         });
                 });
 #pragma warning restore 612, 618
