@@ -83,7 +83,7 @@
                 .split('')
                 .map(c => parseInt(c))
 
-            console.log(guess)
+            
 
             //(一)防呆
             //長度非4
@@ -141,7 +141,13 @@
             right_check.innerText=`${A}A${B}B`
 
 
-            console.log(btnGroup)
+            if(A==4)
+            {
+                alert(`恭喜答對，答案為${ans}`)
+                restart()
+            }
+            else
+            input_guess.value=""
 
 
         }
@@ -156,7 +162,7 @@
             ans = candidates
                 .sort((a, b) => Math.random() - 0.5)
                 .slice(0, 4)//取索引值0~<4,拷貝一份回傳
-
+                
             //法二、抽牌
             // for (let i = 0; i < 4; i++) {
             // let idx = Math.floor(
@@ -168,7 +174,7 @@
             // //一刪
             // candidates.splice(idx, 1)//開始索引幾個
             // }
-            console.log(ans)
+            
         }
     </script>
 
