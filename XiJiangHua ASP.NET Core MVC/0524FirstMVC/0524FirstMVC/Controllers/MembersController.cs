@@ -1,11 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using _0524FirstMVC.Data;
 using _0524FirstMVC.Models;
-using System.Collections.Generic;
-using Newtonsoft.Json;
-using _0524FirstMVC.Data;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using System.Linq;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using _0524FirstMVC.ViewModels;
+using Microsoft.AspNetCore.Mvc;
+using Umbraco.Core.Services.Implement;
+using Newtonsoft.Json;
 
 namespace _0524FirstMVC.Controllers
 {
@@ -102,6 +104,13 @@ namespace _0524FirstMVC.Controllers
                 return Content("找不到此Id員工");
             }
             return View(member);
+        }
+        public async Task<IActionResult> CityList()
+        {
+            MemberService memberService = new MemberService;
+
+            List<CityCountViewModel> cityCount = await memberService.CityCount();
+            return View(cityCount);
         }
     }
 }

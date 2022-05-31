@@ -2010,6 +2010,15 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "UmbracoCms.Core/8.18.4": {
+        "type": "package",
+        "compile": {
+          "lib/net472/Umbraco.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net472/Umbraco.Core.dll": {}
+        }
       }
     }
   },
@@ -7135,6 +7144,20 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "UmbracoCms.Core/8.18.4": {
+      "sha512": "IIHNW6S/GWikbVpOS580ey5aRzWG2FpJNkrMOsK9xYcBnCLBHeQC3Xd6btZwHxEMg8cWhIbaaT79OsBH/1HGeQ==",
+      "type": "package",
+      "path": "umbracocms.core/8.18.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net472/Umbraco.Core.dll",
+        "lib/net472/Umbraco.Core.pdb",
+        "lib/net472/Umbraco.Core.xml",
+        "umbracocms.core.8.18.4.nupkg.sha512",
+        "umbracocms.core.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -7144,7 +7167,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.15",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.15",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2",
-      "Newtonsoft.Json >= 13.0.1"
+      "Newtonsoft.Json >= 13.0.1",
+      "UmbracoCms.Core >= 8.18.4"
     ]
   },
   "packageFolders": {
@@ -7218,6 +7242,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.1, )"
+          },
+          "UmbracoCms.Core": {
+            "target": "Package",
+            "version": "[8.18.4, )"
           }
         },
         "imports": [
@@ -7247,5 +7275,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用 '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' 而非專案目標架構 'net5.0' 還原了套件 'UmbracoCms.Core 8.18.4'。此套件與您的專案並非完全相容。",
+      "libraryId": "UmbracoCms.Core",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }

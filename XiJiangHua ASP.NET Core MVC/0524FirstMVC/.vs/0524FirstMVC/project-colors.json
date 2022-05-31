@@ -5,7 +5,17 @@
       "ProjectGuid": "0f1de45e-6f4f-4e21-95a4-b64a851be18f",
       "DisplayName": "0524FirstMVC",
       "ColorIndex": 0
+    },
+    "5f29f65b-18df-40c8-ba09-8988779524fb": {
+      "ProjectGuid": "5f29f65b-18df-40c8-ba09-8988779524fb",
+      "DisplayName": "0531SecondMVC",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "其他檔案",
+      "ColorIndex": -1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }
