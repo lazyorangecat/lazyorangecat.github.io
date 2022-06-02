@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "25317273-6f5f-45bd-82d7-dae639e304a7": {
+      "ProjectGuid": "25317273-6f5f-45bd-82d7-dae639e304a7",
+      "DisplayName": "RectangleLibrary",
+      "ColorIndex": 0
+    },
+    "2160170c-e0b3-447c-a752-33ce30feedec": {
+      "ProjectGuid": "2160170c-e0b3-447c-a752-33ce30feedec",
+      "DisplayName": "RectangleLibraryTests",
+      "ColorIndex": 1
+    },
+    "c64c80a5-0d53-4ddd-8f04-4fb994487858": {
+      "ProjectGuid": "c64c80a5-0d53-4ddd-8f04-4fb994487858",
+      "DisplayName": "RectangleLibrary2",
+      "ColorIndex": 2
+    },
+    "6645655a-2725-41b9-bfee-db209bf88aad": {
+      "ProjectGuid": "6645655a-2725-41b9-bfee-db209bf88aad",
+      "DisplayName": "RectangleLibrary2Tests",
+      "ColorIndex": 3
+    },
+    "2a8e34ae-47c1-4f66-9021-f2a55ef765fb": {
+      "ProjectGuid": "2a8e34ae-47c1-4f66-9021-f2a55ef765fb",
+      "DisplayName": "RectangleConsole",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "dd1450fd-32e8-4228-9b95-67396cba11cb": {
+      "ProjectGuid": "dd1450fd-32e8-4228-9b95-67396cba11cb",
+      "DisplayName": "RectangleWindows",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
