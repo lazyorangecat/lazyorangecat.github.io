@@ -1,0 +1,2 @@
+System.ArgumentException: PartNo:A001exists
+   於 BuildSchoolBizApp.Services.ProductService.Create(ProductViewModel input) 於 C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\BillZhong_C#\MyPractise\0609BuildSchoolBizSystem\BuildSchoolBizApp\Services\ProductService.cs: 行 20

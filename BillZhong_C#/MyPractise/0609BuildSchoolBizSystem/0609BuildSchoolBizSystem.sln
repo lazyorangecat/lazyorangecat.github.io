@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizDataLibrary", "BizDataLibrary\BizDataLibrary.csproj", "{4F8CF8DF-B437-4445-AB25-21A28CC9CEDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildSchoolBizApp", "BuildSchoolBizApp\BuildSchoolBizApp.csproj", "{70FEF2C3-8C1B-45A5-B241-6CA3763E1891}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F8CF8DF-B437-4445-AB25-21A28CC9CEDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F8CF8DF-B437-4445-AB25-21A28CC9CEDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F8CF8DF-B437-4445-AB25-21A28CC9CEDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F8CF8DF-B437-4445-AB25-21A28CC9CEDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70FEF2C3-8C1B-45A5-B241-6CA3763E1891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70FEF2C3-8C1B-45A5-B241-6CA3763E1891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70FEF2C3-8C1B-45A5-B241-6CA3763E1891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70FEF2C3-8C1B-45A5-B241-6CA3763E1891}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83A3CAE5-5C5C-4959-969E-5E109E0DD84E}
+	EndGlobalSection
+EndGlobal

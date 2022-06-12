@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5b8639a4-25c8-4673-9db5-1864cbd2f358": {
+      "ProjectGuid": "5b8639a4-25c8-4673-9db5-1864cbd2f358",
+      "DisplayName": "ShapeLibrary",
+      "ColorIndex": 0
+    },
+    "859a4b63-fbcd-49d0-b945-1433d9ef1dcb": {
+      "ProjectGuid": "859a4b63-fbcd-49d0-b945-1433d9ef1dcb",
+      "DisplayName": "ShapeLibraryTests",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

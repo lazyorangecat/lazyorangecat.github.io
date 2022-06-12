@@ -15,7 +15,6 @@ namespace _0524FirstMVC.Services
         {
             _context = new MemberContext();
         }
-
         public async Task<List<CityCountViewModel>> CityCount()
         {
             var query = from member in await _context.Members.ToListAsync()
@@ -26,5 +25,6 @@ namespace _0524FirstMVC.Services
                                 .Select(g => new CityCountViewModel { City = g.Key, Count = g.Count() });
             return query.ToList();
         }
+
     }
 }

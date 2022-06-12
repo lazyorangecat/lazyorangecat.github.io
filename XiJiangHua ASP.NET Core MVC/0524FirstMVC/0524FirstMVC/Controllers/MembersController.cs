@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using _0524FirstMVC.ViewModels;
 using Microsoft.AspNetCore.Mvc;
-using Umbraco.Core.Services.Implement;
+
 using Newtonsoft.Json;
 
 namespace _0524FirstMVC.Controllers
@@ -58,7 +58,7 @@ namespace _0524FirstMVC.Controllers
                 new Member{Id=30,Name="王俐璇",Brief="甜點愛好者", Department = "資工系", Gender = false, City = "台南市", FuturePlan = "stuty", Salary = "36000-42000",Team="第四組",Photo="https://raw.githubusercontent.com/Lemon-2001/FileStoreage/main/MVC/Hsuan.jpeg"},
                 new Member{Id=31,Name="郭柏言",Brief="可以坐著就不要站著，可以躺著就不要坐著",Department = "資管系",Gender = true, City = "台南市",FuturePlan = "work",Salary = "40000~45000",Team="第四組",Photo="https://lazyorangecat.github.io/XiJiangHua%20ASP.NET%20Core%20MVC/0524FirstMVC/12.jpeg"},
             };
-            
+
             string jsonMembers = JsonConvert.SerializeObject(members);
 
             ViewData["jsonMembers"] = jsonMembers;
@@ -77,7 +77,7 @@ namespace _0524FirstMVC.Controllers
 
             return View();
         }
-        public async Task<IActionResult>ListTable()
+        public async Task<IActionResult> ListTable()
         {
             MemberContext ctx = new MemberContext();
 
@@ -90,27 +90,20 @@ namespace _0524FirstMVC.Controllers
         [HttpGet]
         public async Task<IActionResult> Details(int id)
         {
-            if(id==0)
+            if (id == 0)
             {
                 return Content("請提供Id編號");
             }
 
             MemberContext ctx = new MemberContext();
 
-            var member =await ctx.Members.FindAsync(id);
+            var member = await ctx.Members.FindAsync(id);
 
-            if(member==null)
+            if (member == null)
             {
                 return Content("找不到此Id員工");
             }
             return View(member);
-        }
-        public async Task<IActionResult> CityList()
-        {
-            MemberService memberService = new MemberService;
-
-            List<CityCountViewModel> cityCount = await memberService.CityCount();
-            return View(cityCount);
         }
     }
 }

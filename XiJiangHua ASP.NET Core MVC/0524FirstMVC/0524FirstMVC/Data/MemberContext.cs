@@ -11,8 +11,10 @@ namespace _0524FirstMVC.Data
             optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=MembersDB");
         }
 
-
         public DbSet<Member> Members { get; set; }
+        public DbSet<Member> Products { get; set; }
+
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -53,7 +55,17 @@ namespace _0524FirstMVC.Data
                 new Member { Id=30,Name="王俐璇",Brief="甜點愛好者", Department = "資工系", Gender = false, City = "台南市", FuturePlan = "stuty", Salary = "36000-42000",Team="第四組",Photo="https://raw.githubusercontent.com/Lemon-2001/FileStoreage/main/MVC/Hsuan.jpeg"},
                 new Member { Id=31,Name="郭柏言",Brief="可以坐著就不要站著，可以躺著就不要坐著",Department = "",Gender = true, City = "",FuturePlan = "",Salary = "",Team="第四組",Photo="https://lazyorangecat.github.io/XiJiangHua%20ASP.NET%20Core%20MVC/0524FirstMVC/12.jpeg"},
             };
+
             modelBuilder.Entity<Member>().HasData(members);
+            
+            List<Product> products = new List<Product>
+            {
+                new Product{Id = 1,ProductName="Ferrari 296 GTB",UnitPrice =1616161,ImageUrl= "https://autos.yahoo.com.tw/p/r/w880/car-models/November2021/NB9n7re2C6OIisCSnALF.jpg"},
+                new Product{Id = 2,ProductName="大穩發",UnitPrice =638000,ImageUrl= "https://image.u-car.com.tw/file_26223.jpg"}
+            };
+
+            modelBuilder.Entity<Product>().HasData(products);
+
         }
     }
 }

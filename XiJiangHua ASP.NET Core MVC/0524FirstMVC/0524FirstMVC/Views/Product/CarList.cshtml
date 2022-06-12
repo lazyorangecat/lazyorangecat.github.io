@@ -1,0 +1,13 @@
+﻿@model IEnumerable<Product>
+@{
+    ViewData["Title"] = "CarList";
+}
+
+@foreach (var item in Model)
+{
+    <h1>@item.ProductName</h1>
+    <h2>Price:@item.UnitPrice</h2>
+    <img src="@item.ImageUrl">
+}
+<h1>CarList</h1>
+

@@ -148,3 +148,7 @@ C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\XiJiangHua
 C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\XiJiangHua ASP.NET Core MVC\0524FirstMVC\0524FirstMVC\obj\Debug\net5.0\Razor\Views\Members\ListTable.cshtml.g.cs
 C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\XiJiangHua ASP.NET Core MVC\0524FirstMVC\0524FirstMVC\obj\Debug\net5.0\Razor\Views\Shared\_NavbarPartial.cshtml.g.cs
 C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\XiJiangHua ASP.NET Core MVC\0524FirstMVC\0524FirstMVC\obj\Debug\net5.0\Razor\Views\Members\Details.cshtml.g.cs
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\XiJiangHua ASP.NET Core MVC\0524FirstMVC\0524FirstMVC\obj\Debug\net5.0\Razor\Views\Product\Car.cshtml.g.cs
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\XiJiangHua ASP.NET Core MVC\0524FirstMVC\0524FirstMVC\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\XiJiangHua ASP.NET Core MVC\0524FirstMVC\0524FirstMVC\obj\Debug\net5.0\Razor\Views\Product\CarList.cshtml.g.cs
+C:\Users\User\OneDrive\桌面\BuildSchool\git\lazyorangecat.github.io\XiJiangHua ASP.NET Core MVC\0524FirstMVC\0524FirstMVC\obj\Debug\net5.0\Razor\Views\Shared\_LayoutBS5.cshtml.g.cs
