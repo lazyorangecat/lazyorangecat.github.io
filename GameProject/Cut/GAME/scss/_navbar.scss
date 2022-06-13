@@ -15,7 +15,6 @@
     height: $header-height;
 
     .header-box {
-        z-index:1001;
         width: 100%;
         height: $header-height;
         background: $color-main;
@@ -25,6 +24,7 @@
         top: 0px;
         left: 0px;
         border-bottom: 1px $color-secondary solid;
+        z-index: 1001;
 
         &-nav {
             height:calc(100vh - #{$header-height});
@@ -37,6 +37,9 @@
             @include mobile {
                 width: auto;
             }
+            
+                
+            
 
             &-content {
                 position: relative;
@@ -48,6 +51,11 @@
                 transition: all 0.5s;
                 padding-top: 10px;
                 padding-bottom: 60px;
+                transform:translateX(-67px);
+
+                @include mobile{
+                    transform:translateX(0px);
+                }
 
                 &-collapse {
                     width: 100%;
@@ -55,6 +63,10 @@
                     left: 0;
                     bottom: 0;
                     font-size: 1.5em;
+                    display: none;
+                    @include mobile{
+                        display: block;
+                    }
                 }
 
                 &-tours {
@@ -141,11 +153,34 @@
             width: 100%;
             justify-content: space-between;
 
+
             .logo {
-                margin: 0;
+                margin: 0 20px;
                 color: $color-third;
                 text-shadow: 3px 2px 5px $color-third;
+                transform: translateY(0px);
+                transition: all .5s ease-in-out;
+                transition: transform 1s;
             }
+            .logomove{
+                opacity: 0;
+                position: absolute;
+                left: 70px;
+                transform: translateY(-60px);
+                transition: transform 1s ease-in-out;
+                transition: opacity .1s;
+                @include mobile{
+                    opacity: 1;
+                    position: relative;
+                    left: 0px;
+                    transform: translateY(0px);
+                    transition: opacity 1s;
+                    transition:  transform 1s;
+                }
+                
+                
+            }
+            
 
             .nav-toggler {
                 width: $nav-min-width;
@@ -175,21 +210,42 @@
                     box-shadow: 0 -8px 0 $color-third;
                 }
             }
+            .sidebar-toggler{
+                width: $nav-min-width;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: auto 10px auto 0px;
+                color: #d1d1d1;
+                cursor: pointer;
+                display: none;
+                font-size: 2rem;
+    
+            }
 
             .search-form {
                 flex: 1;
-                justify-content: center;
+                justify-content: flex-end;
+                flex-wrap: nowrap;
                 position: relative;
-
+                overflow: hidden;
                 .form-control {
-                    transition: all 0.5s;
-                    display: none;
+                    width: 100%;
+                    transform: translateX(110%);
+                    transition:all 1s ease-in-out;
+                    
+                }
+                .form-control-open{
+                    transform: translateX(0%);
+                    transition:all 1s ease-in-out;
                 }
 
                 .btn {
                     position: absolute;
                     right: 0px;
                     color: #f8f9fa;
+                    background: $color-main;
+                    border-radius: 0;
                     @extend .font-icon;
 
                     &:before {
@@ -198,19 +254,16 @@
                 }
 
                 @include mobile {
-                    .form-control {
-                        width: auto;
-                        display: block;
-                        border-top-right-radius: 0;
-                        border-bottom-right-radius: 0;
-                    }
-
-                    .btn {
+                    // .form-control {
+                        // width: auto;
+                        
+                    // }
+                    // .btn {
                         position: relative;
-                        border-top-left-radius: 0;
-                        border-bottom-left-radius: 0;
-                        background: #313131;
-                    }
+                        // border-top-left-radius: 0;
+                        // border-bottom-left-radius: 0;
+                        // background: #313131;
+                    // }
                 }
             }
 
@@ -273,6 +326,18 @@
                     }
                 }
             }
+            .header-box-nav-content{
+                transform: translateX(0px);
+            }
+            .header-box-nav-content-collapse{
+                opacity: 0;
+                transition: all 0.5s;
+            }
         }
     }
+
+    .closenav{
+        transform:translateX(-67px);
+    }
+    
 }
