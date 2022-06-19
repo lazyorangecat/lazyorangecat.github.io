@@ -1,0 +1,15 @@
+﻿@using CoreMvc5_Pillars_Clone.ViewsModels
+@model ClothingViewModel
+@{
+    var cloth = (ClothingViewModel)Model;
+}
+<div class="card">
+    <img src="@Model.ProductPhoto" class="card-img-top" alt="@Model.ProductPhoto">
+    <div class="card-body">
+        <a href="~/Clothing/Details/@Model.Id">
+            <h5 class="card-title">@Model.ProductName</h5>
+        </a>
+
+        <p class="card-text">@Model.UnitPrice</p>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<div class="row">
+    @foreach (var cloth in Model)
+    {
+        @*<a href="~/Clothing/Details/@cloth.Id">
+            <partial name="_CardPartial" model="cloth" />
+        </a>*@
+        <partial name="_CardPartial" model="cloth"/>
+    }
+</div>
+
