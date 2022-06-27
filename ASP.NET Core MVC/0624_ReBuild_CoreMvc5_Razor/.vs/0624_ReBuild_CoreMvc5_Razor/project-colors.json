@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ea4d86eb-71b3-4cbc-8dcb-184a541fb93c": {
+      "ProjectGuid": "ea4d86eb-71b3-4cbc-8dcb-184a541fb93c",
+      "DisplayName": "0624_ReBuild_CoreMvc5_Razor",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

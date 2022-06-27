@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "cfa936f6-f558-4221-b11c-b77990ea9ab9": {
+      "ProjectGuid": "cfa936f6-f558-4221-b11c-b77990ea9ab9",
+      "DisplayName": "CoreMvc5_Razor",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

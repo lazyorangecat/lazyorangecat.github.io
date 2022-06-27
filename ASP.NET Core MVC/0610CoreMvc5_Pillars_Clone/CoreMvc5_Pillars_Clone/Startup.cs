@@ -63,6 +63,16 @@ namespace CoreMvc5_Pillars_Clone
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+                endpoints.MapControllerRoute(
+                    name: "women",
+                    pattern: "Women",
+                    defaults: new {controller="Lady",action="portal",});
+
+                endpoints.MapControllerRoute(
+                    name: "men",
+                    pattern: "Men",
+                    defaults: new { controller = "Sir", action = "entrypoint", });
             });
         }
     }

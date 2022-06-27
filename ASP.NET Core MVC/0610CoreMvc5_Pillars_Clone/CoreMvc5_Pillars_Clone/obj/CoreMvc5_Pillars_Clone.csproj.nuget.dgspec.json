@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\BuildSchool\\git\\lazyorangecat.github.io\\XiJiangHua ASP.NET Core MVC\\0610CoreMvc5_Pillars_Clone\\CoreMvc5_Pillars_Clone\\CoreMvc5_Pillars_Clone.csproj": {}
+    "C:\\Users\\User\\Desktop\\BuildSchool\\git\\lazyorangecat.github.io\\ASP.NET Core MVC\\0610CoreMvc5_Pillars_Clone\\CoreMvc5_Pillars_Clone\\CoreMvc5_Pillars_Clone.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\BuildSchool\\git\\lazyorangecat.github.io\\XiJiangHua ASP.NET Core MVC\\0610CoreMvc5_Pillars_Clone\\CoreMvc5_Pillars_Clone\\CoreMvc5_Pillars_Clone.csproj": {
+    "C:\\Users\\User\\Desktop\\BuildSchool\\git\\lazyorangecat.github.io\\ASP.NET Core MVC\\0610CoreMvc5_Pillars_Clone\\CoreMvc5_Pillars_Clone\\CoreMvc5_Pillars_Clone.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\BuildSchool\\git\\lazyorangecat.github.io\\XiJiangHua ASP.NET Core MVC\\0610CoreMvc5_Pillars_Clone\\CoreMvc5_Pillars_Clone\\CoreMvc5_Pillars_Clone.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\BuildSchool\\git\\lazyorangecat.github.io\\ASP.NET Core MVC\\0610CoreMvc5_Pillars_Clone\\CoreMvc5_Pillars_Clone\\CoreMvc5_Pillars_Clone.csproj",
         "projectName": "CoreMvc5_Pillars_Clone",
-        "projectPath": "C:\\Users\\User\\Desktop\\BuildSchool\\git\\lazyorangecat.github.io\\XiJiangHua ASP.NET Core MVC\\0610CoreMvc5_Pillars_Clone\\CoreMvc5_Pillars_Clone\\CoreMvc5_Pillars_Clone.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\BuildSchool\\git\\lazyorangecat.github.io\\ASP.NET Core MVC\\0610CoreMvc5_Pillars_Clone\\CoreMvc5_Pillars_Clone\\CoreMvc5_Pillars_Clone.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\BuildSchool\\git\\lazyorangecat.github.io\\XiJiangHua ASP.NET Core MVC\\0610CoreMvc5_Pillars_Clone\\CoreMvc5_Pillars_Clone\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\BuildSchool\\git\\lazyorangecat.github.io\\ASP.NET Core MVC\\0610CoreMvc5_Pillars_Clone\\CoreMvc5_Pillars_Clone\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

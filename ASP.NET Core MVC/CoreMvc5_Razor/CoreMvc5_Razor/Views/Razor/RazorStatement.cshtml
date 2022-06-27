@@ -1,0 +1,55 @@
+﻿
+@{
+    ViewData["Title"] = "RazorStatement";
+}
+
+<h1>RazorStatement</h1>
+
+
+@{
+    var score = 79;
+}
+
+@*@if (score < 60)
+{
+    <p>@(score)分：成績不及格!</p>
+}
+else if (score >= 60 && score < 85)
+{
+    <p>@(score)分：成績及格，分數尚可.</p>
+}
+else if (score >= 85 && score < 95)
+{
+    <p>@(score)分：成績及格，分數中上.</p>
+}
+else
+{
+    <p>@(score)分：成績及格，分數優異！</p>
+}*@
+
+
+@{
+    string ScoreComment(int score)
+    {
+        string comment = "";
+
+        switch (score)
+        {
+            case int s when s <= 60:
+                comment = $"{s}分：成績不及格!";
+                break;
+            case int s when s >= 60 && s < 85:
+                comment = $"{score}分：成績及格，分數尚可.";
+                break;
+            case int s when s >= 85 && s < 95:
+                comment = $"{score}分：成績及格，分數中上.";
+                break;
+            default:
+                comment = $"{score}分：成績及格，分數優異！";
+                break;
+        }
+
+        return comment;
+    };
+}
+<h1>@ScoreComment(score)</h1>

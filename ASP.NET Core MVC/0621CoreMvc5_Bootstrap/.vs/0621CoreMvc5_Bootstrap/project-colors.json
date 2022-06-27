@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c0a5b3d5-dfb6-4b9f-950d-6963ad6b41df": {
+      "ProjectGuid": "c0a5b3d5-dfb6-4b9f-950d-6963ad6b41df",
+      "DisplayName": "CoreMvc5_Bootstrap",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

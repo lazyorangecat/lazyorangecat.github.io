@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0624_ReBuild_CoreMvc5_Razor", "0624_ReBuild_CoreMvc5_Razor\0624_ReBuild_CoreMvc5_Razor.csproj", "{EA4D86EB-71B3-4CBC-8DCB-184A541FB93C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA4D86EB-71B3-4CBC-8DCB-184A541FB93C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA4D86EB-71B3-4CBC-8DCB-184A541FB93C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA4D86EB-71B3-4CBC-8DCB-184A541FB93C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA4D86EB-71B3-4CBC-8DCB-184A541FB93C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42E5197F-9D89-4DF6-9186-BE90B8BAE4A0}
+	EndGlobalSection
+EndGlobal
